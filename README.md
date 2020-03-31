@@ -18,7 +18,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **05. Primitive Types, Code Conventions And Comments**
 - **06. Primitive Types, Operators And Exercises**
-- **07. Floating Point Numbers**
+- **07. Rest Operator And Comparation Operator**
 - **08. Characters**
 - **09. Booleans**
 - **10. Local Variables**

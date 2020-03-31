@@ -1,0 +1,13 @@
+< (Menor que)
+
+> (Maior que)
+
+<= (Menor igual)
+
+>= (Maior igual)
+
+== (Igual)
+
+!= (Diferente)
+
+O resultado de qualquer operador desses sempre será um booleano (False ou True)
