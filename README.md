@@ -16,7 +16,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 > ### VARIABLES:
 
-- **05. Primitives Types**
+- **05. Primitive Types, Code Conventions And Comments**
 - **06. Integer Numbers**
 - **07. Floating Point Numbers**
 - **08. Characters**
