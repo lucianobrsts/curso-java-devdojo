@@ -9,9 +9,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 > ### BASICS:
 
-- **01. Installing java**
-- **02. Java Keywords**
-- **03. Code Convention**
+- **01. How Java Works**
+- **02. How To Install Java On Windows**
+- **03. Running The Build Process Manually**
 - **04. Comments**
 
 > ### VARIABLES:
