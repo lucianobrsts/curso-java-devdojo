@@ -1,0 +1,10 @@
+1- Crie um algorítimo que possua variáveis para salvar os seguintes dados: nome, nndereco, nelefone de uma pessoa.
+
+* Imprima essas variáveis da seguinte forma:
+    - O <nome> domiciliado no endereço <endereco> e telefone <telefone> não possui nenhum tipo de pendência.
+
+
+2- Crie um algorítimo que possua as variáveis nome, salario, sexo(M ou F), idade, estadoCivil.
+
+* Imprima da seguinte forma:
+    - O trabalhador(a) <nome> do sexo <sexo>, idade <idade>, estado civil <estadoCivil> e salário <salario> encontra-se empregado neste estabelecimento.
