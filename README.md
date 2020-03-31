@@ -18,19 +18,12 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **05. Primitive Types, Code Conventions And Comments**
 - **06. Primitive Types, Operators And Exercises**
-- **07. Rest Operator And Comparation Operator**
-- **08. Logical Operators**
-- **09. Assignment Operators**
-- **10. Local Variables**
-- **11. Variable Scope Local**
 
 > ### OPERATORS:
 
-- **12. Operators**
-- **13. Comparison Operators**
-- **14. Logic Operators**
-- **15. Assignment Operators**
-- **16. Ternary Operator**
+- **07. Rest Operator And Comparation Operator**
+- **08. Logical Operators**
+- **09. Assignment Operators**
 
 > ### FLOW CONTROL:
 

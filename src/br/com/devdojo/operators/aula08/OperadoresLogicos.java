@@ -1,4 +1,4 @@
-package br.com.devdojo.variables.aula08;
+package br.com.devdojo.operators.aula08;
 
 public class OperadoresLogicos {
 

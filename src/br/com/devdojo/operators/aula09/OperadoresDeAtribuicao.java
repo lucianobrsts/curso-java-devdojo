@@ -1,4 +1,4 @@
-package br.com.devdojo.variables.aula09;
+package br.com.devdojo.operators.aula09;
 
 public class OperadoresDeAtribuicao {
 
