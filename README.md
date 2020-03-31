@@ -12,7 +12,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **01. How Java Works**
 - **02. How To Install Java On Windows**
 - **03. Running The Build Process Manually**
-- **04. Comments**
+- **04. Download The Development Environment**
 
 > ### VARIABLES:
 
