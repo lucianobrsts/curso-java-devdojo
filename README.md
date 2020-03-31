@@ -20,7 +20,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **06. Primitive Types, Operators And Exercises**
 - **07. Rest Operator And Comparation Operator**
 - **08. Logical Operators**
-- **09. Booleans**
+- **09. Assignment Operators**
 - **10. Local Variables**
 - **11. Variable Scope Local**
 
