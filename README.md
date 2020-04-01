@@ -27,8 +27,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 > ### FLOW CONTROL:
 
-- **17. Flow Control If, Else**
-- **18. Switch**
+- **10. Flow Control If, Else**
+- **11. Flow Control, Ternary Operator And Truth Table**
 - **19. While**
 - **20. Do While**
 - **21. For**

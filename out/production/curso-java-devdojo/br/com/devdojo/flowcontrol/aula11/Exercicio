@@ -1,0 +1,14 @@
+1- Usando operador ternário execute:
+
+* idade < 15 categoria Infantil;
+* idade >= 15 && idade < 18 Categoria Juvenil;
+* idade >= 18 Categoria Adulto;
+
+2-Execute a mesma atividade 1 porém usando a estrutura If else.
+
+3- Crie uma variável salário e imprima seu imposto:
+
+* salario < 1000 pagará 5% de imposto;
+* salario >= 1000 && salario < 2000 pagará 10% de imposto;
+* salario >= 2000 && salario < 4000 pagará 15% de imposto;
+* salario > 5000 pagará 20% de imposto;

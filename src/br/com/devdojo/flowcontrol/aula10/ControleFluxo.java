@@ -1,6 +1,6 @@
-package br.com.devdojo.flowcontrol;
+package br.com.devdojo.flowcontrol.aula10;
 
-public class ControleFluxoAula10 {
+public class ControleFluxo {
 
     public static void main(String[] args) {
         int idade = 18;
