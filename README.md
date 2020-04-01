@@ -29,7 +29,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **10. Flow Control If, Else**
 - **11. Flow Control, Ternary Operator And Truth Table**
-- **19. While**
+- **12. If Else Exercise Resolution**
 - **20. Do While**
 - **21. For**
 - **22. Break**

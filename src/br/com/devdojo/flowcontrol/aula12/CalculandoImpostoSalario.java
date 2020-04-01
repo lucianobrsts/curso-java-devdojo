@@ -1,10 +1,10 @@
-package br.com.devdojo.flowcontrol.aula11;
+package br.com.devdojo.flowcontrol.aula12;
 
 public class CalculandoImpostoSalario {
 
     public static void main(String[] args) {
 
-        double salario = 5000;
+        double salario = 3500;
 
         if (salario < 1000) {
             salario *= 0.05;
