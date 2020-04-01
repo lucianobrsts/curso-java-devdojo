@@ -27,7 +27,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 > ### FLOW CONTROL:
 
-- **17. If, Else**
+- **17. Flow Control If, Else**
 - **18. Switch**
 - **19. While**
 - **20. Do While**
