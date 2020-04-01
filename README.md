@@ -31,7 +31,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **11. Flow Control, Ternary Operator And Truth Table**
 - **12. If Else Exercise Resolution**
 - **13. Switch And Exercise**
-- **13. Switch Exercise Resolution**
+- **14. Switch Exercise Resolution**
+- **15. For, While And Do While**
 
 > ### ARRAYS:
 
