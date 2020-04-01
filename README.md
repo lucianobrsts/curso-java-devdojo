@@ -38,7 +38,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 > ### ARRAYS:
 
-- **24. Arrays**
+- **18. Arrays**
 - **25. Two-Dimensional Arrays**
 - **26. Multi-Dimensional Arays**
 - **27. Enhanced For**
