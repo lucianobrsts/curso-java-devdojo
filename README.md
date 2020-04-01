@@ -34,6 +34,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **14. Switch Exercise Resolution**
 - **15. For, While And Do While**
 - **16. Repetition Structure Exercise**
+- **17. Break And Continue Command**
 
 > ### ARRAYS:
 
