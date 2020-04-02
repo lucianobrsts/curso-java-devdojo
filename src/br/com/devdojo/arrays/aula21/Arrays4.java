@@ -1,6 +1,6 @@
 package br.com.devdojo.arrays.aula21;
 
-public class Arrays {
+public class Arrays4 {
 
     public static void main(String[] args) {
 

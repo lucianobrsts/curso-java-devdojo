@@ -42,8 +42,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **19. Arrays 2**
 - **20. Arrays 3 And Foreach**
 - **21. Multi-Dimensional Arrays**
-- **27. Enhanced For**
-- **28. Main Method**
+- **22. Multi-Dimensional Arrays 2**
 
 > ### CLASSES AND OBJECTS:
 
