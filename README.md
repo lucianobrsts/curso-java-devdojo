@@ -48,7 +48,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **23. Introduction to Packages**
 - **24. Classes**
-- **31. Convention For Naming Classes**
+- **25. Classes 2**
 - **32. Objects**
 - **33. Abstraction**
 - **34. Cohesion**

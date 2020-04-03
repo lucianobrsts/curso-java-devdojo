@@ -1,4 +1,4 @@
-package br.com.devdojo.classesandobjects.aula24.classestest;
+package br.com.devdojo.classesandobjects.aula24.test;
 
 import br.com.devdojo.classesandobjects.aula24.classes.Estudante;
 
