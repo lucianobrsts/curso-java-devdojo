@@ -52,9 +52,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **26. Classes 3 And Exercise Resolution**
 - **27. Methods**
 - **28. Methods with Parameters**
+- **29. Methods Return**
 - **41. Declaring Methods**
 - **42. Convention For Naming Methods**
-- **43. Methods Return**
 - **45. How To Access Methods Through Other Classes**
 - **46. Common Mistakes**
 - **47. Varargs**
