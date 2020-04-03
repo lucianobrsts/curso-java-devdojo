@@ -50,15 +50,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **24. Classes**
 - **25. Classes 2**
 - **26. Classes 3 And Exercise Resolution**
-- **32. Objects**
-- **33. Abstraction**
-- **34. Cohesion**
-- **35. Attributes**
-- **36. Declaring Attributes**
-- **37. Conventition for Naming Attributes**
-- **38. How To Access Attributes Through Other Classes**
-- **39. Initializing Attributes**
-- **40. Methods**
+- **27. Methods**
 - **41. Declaring Methods**
 - **42. Convention For Naming Methods**
 - **43. Methods Return**
