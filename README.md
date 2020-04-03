@@ -53,6 +53,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **27. Methods**
 - **28. Methods with Parameters**
 - **29. Methods Return**
+- **30. Methods Return 2**
 - **41. Declaring Methods**
 - **42. Convention For Naming Methods**
 - **45. How To Access Methods Through Other Classes**
