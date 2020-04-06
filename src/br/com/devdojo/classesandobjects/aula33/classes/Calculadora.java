@@ -46,7 +46,7 @@ public class Calculadora {
         System.out.println(soma);
     }
     // só é possível ter um varargs por assinatura de método
-    //quando o método tem mais de um parâmetro o varargs sempre tem de ser o ultimo declarado
+    //quando o método tem mais de um parâmetro o varargs sempre tem de ser o ultimo.
     public void somaVarArgs(int... numeros) {
         int soma = 0;
         for (int num : numeros) {

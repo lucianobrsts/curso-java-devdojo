@@ -58,7 +58,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **32. Passing Reference Type (Objects) As Parameter And This**
 - **33. Passing Parameter Varargs**
 - **34. UML**
-- **46. Common Mistakes**
+- **35. Methods Exercises**
 - **47. Varargs**
 - **48. Passing Primitive Types As Parameter**
 - **49. Passing Reference Type (Objects) As Parameter**
