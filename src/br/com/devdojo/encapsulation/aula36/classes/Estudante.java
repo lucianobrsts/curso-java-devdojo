@@ -1,13 +1,12 @@
-package br.com.devdojo.classesandobjects.aula35.classes;
+package br.com.devdojo.encapsulation.aula36.classes;
 
 import java.text.DecimalFormat;
 
 public class Estudante {
 
-    public String nome;
-    public int idade;
-    public double[] notas;
-
+    private String nome;
+    private int idade;
+    private double[] notas;
 
     public void imprime() {
         System.out.println("Nome: " + this.nome);
@@ -43,7 +42,31 @@ public class Estudante {
         } else {
             res = "Reprovado";
         }
-        System.out.println("\nResultado: " + res);
 
+        System.out.println("\nResultado: " + res);
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public double[] getNotas() {
+        return notas;
+    }
+
+    public void setNotas(double[] notas) {
+        this.notas = notas;
     }
 }
