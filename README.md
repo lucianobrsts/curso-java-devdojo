@@ -56,6 +56,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **30. Methods Return 2**
 - **31. Passing Reference Type (Objects) As Parameter**
 - **32. Passing Reference Type (Objects) As Parameter And This**
+- **33. Passing Parameter Varargs**
 - **45. How To Access Methods Through Other Classes**
 - **46. Common Mistakes**
 - **47. Varargs**
