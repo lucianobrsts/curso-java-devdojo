@@ -18,6 +18,17 @@ public class Funcionario {
         this.rg = rg;
     }
 
+    public void init(String nome, String cpf, double salario) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.salario = salario;
+    }
+
+    public void init(String nome, String cpf, double salario, String rg) {
+        init(nome, cpf, salario);
+        this.rg = rg;
+    }
+
     public void imprime() {
         System.out.println(this.nome);
         System.out.println(this.cpf);
