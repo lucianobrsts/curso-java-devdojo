@@ -16,6 +16,6 @@ public class EstudanteTest {
 
         estudante.calculaMedia();
 
-        System.out.println("Aprovado?: " + estudante.getAprovado());
+        System.out.println("Aprovado?: " + estudante.isAprovado());
     }
 }

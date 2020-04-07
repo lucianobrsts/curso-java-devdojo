@@ -63,20 +63,11 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 > ### ENCAPSULATION:
 
 - **36. Private Modifier, Getters And Setters**
-- **37. Private Modifier, Getters And Setters 2**
-- **51. Get Methods**
-- **52. Set Methods**
-- **53. Is Methods**
-- **54. Access Modifiers**
-- **55. Public Modifier** 
-- **56. Private Modifier**
-- **57. Object This**
-- **58. Tight Coupling**
-- **59. Losse Coupling**
+- **37. Private Modifier, Getters Setters And Is Methods**
 
 > ### OVERLOADING METHODS:
 
-- **60. Overloading**
+- **38. Overloading**
 - **61. Overloading Whith Ambiguous Types**
 
 > ### CONSTRUCTORS:
