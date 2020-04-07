@@ -63,6 +63,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 > ### ENCAPSULATION:
 
 - **36. Private Modifier, Getters And Setters**
+- **37. Private Modifier, Getters And Setters 2**
 - **51. Get Methods**
 - **52. Set Methods**
 - **53. Is Methods**
