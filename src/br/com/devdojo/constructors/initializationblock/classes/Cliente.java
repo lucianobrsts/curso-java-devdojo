@@ -1,4 +1,4 @@
-package br.com.devdojo.constructors.blocodeinicializacao.classes;
+package br.com.devdojo.constructors.initializationblock.classes;
 
 public class Cliente {
     // 1- Alocado espaço na memória para o objeto que será alocado.

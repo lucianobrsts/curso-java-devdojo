@@ -1,6 +1,6 @@
-package br.com.devdojo.constructors.blocodeinicializacao.test;
+package br.com.devdojo.constructors.initializationblock.test;
 
-import br.com.devdojo.constructors.blocodeinicializacao.classes.Cliente;
+import br.com.devdojo.constructors.initializationblock.classes.Cliente;
 
 public class ClienteTest {
 
