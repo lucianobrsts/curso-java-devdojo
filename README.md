@@ -73,9 +73,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **39. Declaring Constructors And Overloading**
 - **40. Declaring Constructors And Overloading 2**
+- **41. Initialization Block**
 - **64. Overloading Constructors**
 - **65. Using Implicit Object This**
-- **66. Initialization Block**
 - **67. Garbage Collector**
 
 > ### STATIC MODIFIER:
