@@ -1,0 +1,11 @@
+Cardinalidade:
+
+1- Obrigatoriamente - 1 (ex: 1 pessoa tem um departamento -  1 pessoa tem de estar associada a 1 departamento)
+
+2- 0..1 - Zero ou um
+
+3- 1..* - um ou mais
+
+4- 0..* - zero ou mais
+
+5- * - zero ou mais
