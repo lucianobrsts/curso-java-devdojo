@@ -79,6 +79,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **42. Static Attributes**
 - **43. Static Methods**
+- **44. Static Initialization Block**
 - **69. When To Use And Not Use Static Attributes**
 - **71. Static Initialization Block**
 
