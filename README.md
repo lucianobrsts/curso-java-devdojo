@@ -84,6 +84,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 > ### ASSOCIATION AND INHERITANCE:
 
 - **45. UML And Classes Association**
+- **46. Association Exercise**
 - **73. Inheritance**
 - **74. Inheritance And Private Modifier**
 - **75. Protected Modifier**
