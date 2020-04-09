@@ -6,6 +6,7 @@ public class CarroTest {
 
     public static void main(String[] args) {
 
+        Carro.setVelocidadeLimite(220);
         Carro carro1 = new Carro("BMW", 280);
         Carro carro2 = new Carro("Audi", 275);
         Carro carro3 = new Carro("Mercedes", 290);
@@ -15,8 +16,7 @@ public class CarroTest {
         carro3.imprime();
 
         System.out.println();
-        System.out.println("Nova velocidade limite");
-        Carro.velocidadeLimite = 220;
+        System.out.println("---------------------");
 
         carro1.imprime();
         carro2.imprime();
