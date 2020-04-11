@@ -86,6 +86,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **45. UML And Classes Association**
 - **46. Association Exercise**
 - **47. Association Exercise 2**
+- **48. Association Exercise 3**
 - **73. Inheritance**
 - **74. Inheritance And Private Modifier**
 - **75. Protected Modifier**
