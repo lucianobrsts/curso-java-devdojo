@@ -19,11 +19,20 @@ public class Seminario {
         System.out.println(" --------------------- Relatório de Seminários --------------------- ");
         System.out.println("Título: " + this.titulo);
         System.out.println("Professor palestrante: " + this.professor.getNome());
-        System.out.println("Local: " + this.local.getRua() + " Bairro: " + this.local.getBairro());
-        System.out.println(" --------------------- Alunos Participantes --------------------- ");
-        for(Aluno aluno : alunos) {
-            System.out.println(aluno.getNome());
+        if (this.local != null) {
+            System.out.println("Local: " + this.local.getRua() + " Bairro: " + this.local.getBairro());
+        } else {
+            System.out.println("Nenhum local cadastrado para esse seminário.");
         }
+        if (alunos != null && alunos.length != 0) {
+            System.out.println(" --------------------- Alunos Participantes --------------------- ");
+            for (Aluno aluno : alunos) {
+                System.out.println(aluno.getNome());
+            }
+        } else {
+            System.out.println("Nenhum aluno cadastrado.");
+        }
+
     }
 
     public String getTitulo() {
