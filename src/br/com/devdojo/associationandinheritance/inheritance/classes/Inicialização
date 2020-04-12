@@ -1,0 +1,15 @@
+Sequência de Inicialização
+
+1- Espaço em memória é alocado para o objeto sendo construído;
+
+2- Cada um dos atributos do objeto é criado e inicializado com valores default;
+
+3- O construtor da superclasse é chamado;
+
+4- A inicialização dos atributos via declaração e o código do bloco de inicialização da superclasse são executados na ordem em que aparecem;
+
+5- O código do construtor da superclasse é chamado;
+
+6- Passo 4 para a superclasse é executado;
+
+7- O código do construtor da classe é executado;
