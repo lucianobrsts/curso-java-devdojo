@@ -8,10 +8,9 @@ public class HerancaTest {
 
     public static void main(String[] args) {
 
-        Pessoa pessoa = new Pessoa();
+        Pessoa pessoa = new Pessoa("Gina");
         Endereco endereco = new Endereco();
 
-        pessoa.setNome("Gina");
         pessoa.setCpf("12345");
 
         endereco.setBairro("Bairro 1");
@@ -20,8 +19,7 @@ public class HerancaTest {
 
         pessoa.imprime();
 
-        Funcionario funcionario =  new Funcionario();
-        funcionario.setNome("Augusto");
+        Funcionario funcionario =  new Funcionario("Augusto");
         funcionario.setCpf("009987");
         funcionario.setSalario(15000);
         funcionario.setEndereco(endereco);

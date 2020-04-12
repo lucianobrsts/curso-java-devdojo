@@ -91,7 +91,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **50. Inheritance**
 - **51. Inheritance And Reference Super**
 - **52. Inheritance And Protected Modifier**
-- **77. Constructors X Inheritance**
+- **53. Constructors X Inheritance**
 - **78. Overriding Methods**
 - **79. Final Modifier**
 - **80. Final Modifier In Class Declaration**
