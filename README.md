@@ -87,8 +87,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **46. Association Exercise**
 - **47. Association Exercise 2**
 - **48. Association Exercise 3**
-- **73. Inheritance**
-- **74. Inheritance And Private Modifier**
+- **49. Association Exercise 4**
+- **50. Inheritance**
 - **75. Protected Modifier**
 - **76. Implicit Reference Super**
 - **77. Constructors X Inheritance**
