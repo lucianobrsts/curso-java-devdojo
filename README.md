@@ -94,9 +94,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **53. Constructors X Inheritance**
 - **54. Inheritance And Initialization Sequence**
 - **55. Overriding Methods**
-- **80. Final Modifier In Class Declaration**
-- **81. Final Modifier In Methods Declaration**
-- **82. Final Modifier In Attributes Declaration**
+- **56. Final Modifier**
 
 > ### ENUMS:
 
