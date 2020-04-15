@@ -99,6 +99,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 > ### ENUMS:
 
 - **57. Enums**
+- **58. Enums 2**
 
 > ### ASSOCIATION AND INHERITANCE:
 

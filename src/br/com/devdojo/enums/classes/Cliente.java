@@ -2,19 +2,27 @@ package br.com.devdojo.enums.classes;
 
 public class Cliente {
 
-    private String nome;
-    private TipoCliente tipo;
+    public enum TipoPagamento{
+        AVISTA, APRAZO
+    }
 
-    public Cliente(String nome, TipoCliente tipo) {
+    private String nome;
+    private TipoCliente tipoCliente;
+    private TipoPagamento tipoPagamento;
+
+    public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
         this.nome = nome;
-        this.tipo = tipo;
+        this.tipoCliente = tipoCliente;
+        this.tipoPagamento = tipoPagamento;
     }
 
     @Override
     public String toString() {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
-                ", tipo=" + tipo +
+                ", tipoCliente=" + tipoCliente.getNome() +
+                ", tipoPagamento=" + tipoPagamento +
+                ", numero=" + tipoCliente.getTipo() +
                 '}';
     }
 
@@ -26,11 +34,19 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public TipoCliente getTipo() {
-        return tipo;
+    public TipoCliente getTipoCliente() {
+        return tipoCliente;
     }
 
-    public void setTipo(TipoCliente tipo) {
-        this.tipo = tipo;
+    public void setTipoCliente(TipoCliente tipoCliente) {
+        this.tipoCliente = tipoCliente;
+    }
+
+    public TipoPagamento getTipoPagamento() {
+        return tipoPagamento;
+    }
+
+    public void setTipoPagamento(TipoPagamento tipoPagamento) {
+        this.tipoPagamento = tipoPagamento;
     }
 }
