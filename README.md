@@ -102,10 +102,10 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **58. Enums 2**
 - **59. Enums 3**
 
-> ### ASSOCIATION AND INHERITANCE:
+> ### ABSTRACT CLASSES AND INTERFACES:
 
+- **60. Abstract Classes**
 - **84. Abstract Modifier**
-- **85. Abstract Classes**
 - **86. Abstract Methods**
 - **87. Common Mistakes**
 - **88. Interfaces In Java**
