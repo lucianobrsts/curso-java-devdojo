@@ -106,9 +106,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **60. Abstract Classes, Abstract Modifier And Abstract Methods**
 - **61. Abstract Classes, Abstract Modifier And Abstract Methods 2**
-- **86. Abstract Methods**
-- **87. Common Mistakes**
-- **88. Interfaces In Java**
+- **62. Interfaces In Java**
 - **89. Defining An Interface**
 - **90. Extending An Interface**
 - **91. Interface Vs Abstract Class**
