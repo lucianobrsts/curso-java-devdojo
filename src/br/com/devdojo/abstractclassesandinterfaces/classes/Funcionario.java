@@ -1,8 +1,7 @@
 package br.com.devdojo.abstractclassesandinterfaces.classes;
 
-public abstract class Funcionario {
+public abstract class Funcionario extends Pessoa {
 
-    protected String nome;
     protected String clt;
     protected double salario;
 
@@ -22,6 +21,10 @@ public abstract class Funcionario {
                 ", clt='" + clt + '\'' +
                 ", salario=" + salario +
                 '}';
+    }
+
+    public void imprime() {
+        System.out.println("Dentro do método imprime Funcionário...");
     }
 
     public abstract void calculaSalario();
