@@ -112,11 +112,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 > ### POLYMORPHISM:
 
 - **64. Polymorphism And Polymorphic Parameters**
-- **65. Polymorphism And Operator Instanceof**
-- **93. Cast Of Objects**
-- **94. Cast Up**
-- **95. Cast Down**
-- **98. Covariant Returns**
+- **65. Polymorphism, Operator Instanceof And Cast of Objects**
+- **66. Polymorphism 3**
 
 > ### PACKAGES:
 
@@ -124,22 +121,6 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **100. Using Class From Other Packages**
 - **101. Default Modifier**
 - **102. Static Import**
-
-> ### ERROR HANDLING:
-
-- **103. Exceptions**
-- **104. Class Error**
-- **105. Class Exception**
-- **106. Runtime Exceptions**
-- **107. Handling Exceptions**
-- **108. Instruction Throw**
-- **109. Instruction Throws**
-- **110. Try/Catch**
-- **111. Try/Catch/Finally**
-- **112. Handling Multiple Exceptions**
-- **113. Creating Custom Exceptions**
-- **114. Asserts**
-- **115. Executing With Asserts**
 
 > ### ERROR HANDLING:
 
