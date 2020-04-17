@@ -6,11 +6,14 @@ import java.io.IOException;
 public class CheckedExceptionTest {
 
     public static void main(String[] args) {
-        criarArquivo();
-
+        try {
+            criarArquivo();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
-    public static void criarArquivo() {
+    public static void criarArquivo() throws IOException {
         File file = new File("Teste.txt");
 
         try {
@@ -18,6 +21,7 @@ public class CheckedExceptionTest {
             System.out.println("Arquivo criado");
         } catch (IOException e) {
             e.printStackTrace();
+            throw e;
         }
     }
 }
