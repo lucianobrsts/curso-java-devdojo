@@ -111,12 +111,11 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 > ### POLYMORPHISM:
 
-- **64. Cast Of Objects**
+- **64. Polymorphism And Polymorphic Parameters**
+- **65. Polymorphism And Operator Instanceof**
 - **93. Cast Of Objects**
 - **94. Cast Up**
 - **95. Cast Down**
-- **96. Operator Instanceof**
-- **97. Polymorphic Parameters**
 - **98. Covariant Returns**
 
 > ### PACKAGES:

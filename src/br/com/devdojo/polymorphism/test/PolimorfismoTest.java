@@ -1,6 +1,5 @@
 package br.com.devdojo.polymorphism.test;
 
-import br.com.devdojo.polymorphism.classes.Funcionario;
 import br.com.devdojo.polymorphism.classes.Gerente;
 import br.com.devdojo.polymorphism.classes.RelatorioPagamento;
 import br.com.devdojo.polymorphism.classes.Vendedor;
@@ -21,8 +20,5 @@ public class PolimorfismoTest {
         System.out.println("----------------------");
         relatorio.relatorioPagamentoGenerico(vendedor);
 
-        Funcionario funcionario = gerente;
-        System.out.println("#########################");
-        System.out.println(funcionario.getSalario());
     }
 }
