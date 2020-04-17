@@ -111,6 +111,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 > ### POLYMORPHISM:
 
+- **64. Cast Of Objects**
 - **93. Cast Of Objects**
 - **94. Cast Up**
 - **95. Cast Down**
