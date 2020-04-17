@@ -115,16 +115,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **65. Polymorphism, Operator Instanceof And Cast of Objects**
 - **66. Polymorphism 3**
 
-> ### PACKAGES:
-
-- **99. Declaring Packages**
-- **100. Using Class From Other Packages**
-- **101. Default Modifier**
-- **102. Static Import**
-
 > ### ERROR HANDLING:
 
-- **103. Exceptions**
+- **67. Exceptions**
 - **104. Class Error**
 - **105. Class Exception**
 - **106. Runtime Exceptions**
@@ -137,6 +130,13 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **113. Creating Custom Exceptions**
 - **114. Asserts**
 - **115. Executing With Asserts**
+
+### PACKAGES:
+
+- **99. Declaring Packages**
+- **100. Using Class From Other Packages**
+- **101. Default Modifier**
+- **102. Static Import**
 
 > ### UTILITY CLASSES:
 
