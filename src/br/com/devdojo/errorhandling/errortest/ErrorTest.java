@@ -1,4 +1,4 @@
-package br.com.devdojo.errorhandling.test;
+package br.com.devdojo.errorhandling.errortest;
 
 public class ErrorTest {
 

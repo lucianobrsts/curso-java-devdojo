@@ -117,10 +117,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 > ### ERROR HANDLING:
 
-- **67. Exceptions**
-- **104. Class Error**
-- **105. Class Exception**
-- **106. Runtime Exceptions**
+- **67. Exceptions And Class Error**
+- **68. Class Exception And Runtime Exception**
 - **107. Handling Exceptions**
 - **108. Instruction Throw**
 - **109. Instruction Throws**
