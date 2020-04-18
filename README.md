@@ -122,7 +122,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **69. Checked Exceptions And Try/Catch**
 - **70. Instruction Throw And Throws**
 - **71. Try/Catch/Finally**
-- **112. Handling Multiple Exceptions**
+- **72. Handling Multiple Exceptions**
 - **113. Creating Custom Exceptions**
 - **114. Asserts**
 - **115. Executing With Asserts**
