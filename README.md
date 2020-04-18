@@ -125,7 +125,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **72. Handling Multiple Exceptions**
 - **73. Handling Multiple Exceptions With Multi-Catch**
 - **74. Try With Resources**
-- **75. Custom exceptions**
+- **75. Custom Exceptions**
+- **76. Exceptions And Overriding Rules**
+- **75. Asserts **
 - **115. Executing With Asserts**
 
 ### PACKAGES:
