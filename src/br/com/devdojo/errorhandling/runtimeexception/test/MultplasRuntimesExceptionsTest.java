@@ -1,5 +1,6 @@
 package br.com.devdojo.errorhandling.runtimeexception.test;
 
+import java.awt.*;
 import java.io.FileNotFoundException;
 import java.sql.SQLException;
 
@@ -9,27 +10,19 @@ public class MultplasRuntimesExceptionsTest {
 
         try {
             throw new IndexOutOfBoundsException();
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Dentro do ArrayIndexOutOfBoundsException");
-        } catch (IndexOutOfBoundsException e) {
-            System.out.println("Dentro do IndexOutOfBoundsException");
-        } catch (IllegalArgumentException e) {
-            System.out.println("Dentro do IllegalArgumentException");
-        } catch (ArithmeticException e) {
-            System.out.println("Dentro do ArithmeticException");
+        } catch (IllegalArgumentException | IndexOutOfBoundsException | ArithmeticException e) {
+            System.out.println("Dentro do Multi-Catch");
         }
-        System.out.println("Fim do programa");
+            System.out.println("Fim do programa");
 
         try {
             talvezLanceException();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (FileNotFoundException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    private static void talvezLanceException() throws SQLException, FileNotFoundException{
+    private static void talvezLanceException() throws SQLException, AWTException, FileNotFoundException {
 
     }
 }
