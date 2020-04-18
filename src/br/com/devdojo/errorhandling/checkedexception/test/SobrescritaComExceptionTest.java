@@ -2,6 +2,9 @@ package br.com.devdojo.errorhandling.checkedexception.test;
 
 import br.com.devdojo.errorhandling.checkedexception.classes.Funcionario;
 import br.com.devdojo.errorhandling.checkedexception.classes.Pessoa;
+import br.com.devdojo.errorhandling.customexception.classes.LoginInvalidoException;
+
+import java.io.FileNotFoundException;
 
 public class SobrescritaComExceptionTest {
 
@@ -10,6 +13,12 @@ public class SobrescritaComExceptionTest {
         Funcionario funcionario = new Funcionario();
         Pessoa pessoa = new Pessoa();
 
-        funcionario.salvar();
+        try {
+            funcionario.salvar();
+        } catch (LoginInvalidoException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }
