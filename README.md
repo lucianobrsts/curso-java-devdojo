@@ -132,7 +132,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 > ### UTILITY CLASSES:
 
 - **78. Wrapper Classes**
-- **117. Boxing**
+- **79. AutoBoxing And Unboxing**
 - **118. String**
 - **119. Comparing String**
 - **120. StringBuffer And StringBuilder**
