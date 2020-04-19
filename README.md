@@ -128,11 +128,10 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **75. Custom Exceptions**
 - **76. Exceptions And Overriding Rules**
 - **77. Asserts**
-- **115. Executing With Asserts**
 
 > ### UTILITY CLASSES:
 
-- **116. Wrapper Classes**
+- **78. Wrapper Classes**
 - **117. Boxing**
 - **118. String**
 - **119. Comparing String**
