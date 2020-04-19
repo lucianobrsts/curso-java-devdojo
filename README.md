@@ -133,7 +133,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **78. Wrapper Classes**
 - **79. AutoBoxing And Unboxing**
-- **118. String**
+- **80. String**
 - **119. Comparing String**
 - **120. StringBuffer And StringBuilder**
 - **121. Dates With Java.Util.Date**
