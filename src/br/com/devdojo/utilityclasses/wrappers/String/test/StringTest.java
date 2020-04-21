@@ -18,6 +18,19 @@ public class StringTest {
         //3- Uma String no pool de strings
         String nome3 = new String("Catarina");
 
+        String teste = "Goku";
+        String teste2 = "     0123456789          ";
+        String teste3 = "aaaooo";
+
+        System.out.println(teste.charAt(3));
+        System.out.println(teste.equalsIgnoreCase(teste2));
+        System.out.println(teste.length());
+        System.out.println(teste3.replace('o','a'));
+        System.out.println(teste2.toLowerCase());
+        System.out.println(teste2.toUpperCase());
+        System.out.println(teste2.substring(0, 5));
+        System.out.println(teste2.trim());
+
         System.out.println(nome);
     }
 }
