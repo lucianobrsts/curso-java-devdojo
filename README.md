@@ -138,8 +138,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **82. StringBuffer And StringBuilder**
 - **83. StringBuilder**
 - **84. Dates With Date And Calendar**
-- **122. Dates With Java.Util.Calendar**
-- **123. Formatting And Coverting Date**
+- **85. Formatting And Coverting Date**
 - **124. Formatters**
 - **125. Formatting Numbers With Java.Text.NumberFormat**
 - **126. Regurlar Expressions**
