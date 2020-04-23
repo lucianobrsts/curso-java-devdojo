@@ -6,9 +6,16 @@ import java.util.regex.Pattern;
 public class ExpressoesRegularesTest {
 
     public static void main(String[] args) {
+        //Meta Caracteres:
+        // \d ==> Busca em uma frase, em um texto todos os dígitos.
+        // \D ==> Encontra todos os caracteres que não são dígitos.
+        // \s ==> Encontra espaços em branco \t \n \f \r.
+        // \S ==> Caracter que não é espaço em branco.
+        // \w ==> Procura por caracteres de palavras a - z, A - Z, digitos e _
+        // \W ==> Encontrar tudo que não for caracteres de palavra.
 
-        String regex = "aba";
-        String texto = "abababa";
+        String regex = "\\W";
+        String texto = "#@hab1278 \r_";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
         System.out.println("Texto: " + texto);

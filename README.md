@@ -143,6 +143,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **87. Formatting Numbers With Java.Text.NumberFormat**
 - **88. Formatting Dates With SimpleDateFormat**
 - **89. Regular Expressions**
+- **90. Regular Expressions 2**
 
 ### PACKAGES:
 
