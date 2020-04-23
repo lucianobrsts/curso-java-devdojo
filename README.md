@@ -142,7 +142,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **86. Internationalization With Locale Classes**
 - **87. Formatting Numbers With Java.Text.NumberFormat**
 - **88. Formatting Dates With SimpleDateFormat**
-- **126. Regurlar Expressions**
+- **89. Regular Expressions**
 
 ### PACKAGES:
 
