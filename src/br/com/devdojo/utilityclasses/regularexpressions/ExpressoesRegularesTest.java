@@ -13,9 +13,12 @@ public class ExpressoesRegularesTest {
         // \S ==> Caracter que não é espaço em branco.
         // \w ==> Procura por caracteres de palavras a - z, A - Z, digitos e _
         // \W ==> Encontrar tudo que não for caracteres de palavra.
+        // []
 
-        String regex = "\\W";
-        String texto = "#@hab1278 \r_";
+        int hex = 0x1;
+        int numerosHex = 0XaFF;
+        String regex = "0[xX][0-9a-fF-F]";
+        String texto = "12 0x 0X 0xFFABC 0x10G 0x1";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
         System.out.println("Texto: " + texto);
@@ -24,7 +27,7 @@ public class ExpressoesRegularesTest {
         System.out.println("Posições Encontradas: ");
 
         while (matcher.find()) {
-            System.out.print(matcher.start() + " ");
+            System.out.println(matcher.start() + " " + matcher.group());
         }
     }
 }
