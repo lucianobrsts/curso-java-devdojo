@@ -147,6 +147,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **91. Regular Expressions 3**
 - **92. Regular Expressions 4**
 - **93. Regular Expressions 5**
+- **94. Regular Expressions 6**
 
 ### PACKAGES:
 

@@ -24,6 +24,7 @@ public class ExpressoesRegularesTest {
         // | coloca ou
         // $ fim de linha
         // * coringa
+        // ^ exclui algo que vc não quer na expressão regular
 
         // exemplos:
         // o(v|c)o = ovo, oco
@@ -37,8 +38,11 @@ public class ExpressoesRegularesTest {
 //        String regex = "([a-zA-Z0-9\\._-])+@([a-zA-Z])+(\\.([a-zA-Z])+)+"; // "([\\w\\._-])+@([a-zA-Z])+(\\.([a-zA-Z])+)+"
 //        String texto = "fulano@hotmail.com, 102Abc@gmail.com, *@!abrao@mail, teste@gmail.com.br, teste@mail";
 
-        String regex = "\\d{2}/\\d{2}/\\d{2,4}";
-        String texto = "05/10/2010 05/5/2015 1/1/01 01/05/95"; //dd/MM/yyyy
+//        String regex = "\\d{2}/\\d{2}/\\d{2,4}";
+//        String texto = "05/10/2010 05/5/2015 1/1/01 01/05/95"; //dd/MM/yyyy
+
+        String regex = "proj([^,])+";
+        String texto = "porj1.bkp, proj1.java, proj1.class, proj1final.java, proj2.bkp, proj3.java, diagrama, texto, foto";
 
         System.out.println("Email válido: " + "*@!abrao@mail.br".matches(regex));
         Pattern pattern = Pattern.compile(regex);
