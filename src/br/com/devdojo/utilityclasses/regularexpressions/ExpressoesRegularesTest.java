@@ -15,10 +15,24 @@ public class ExpressoesRegularesTest {
         // \W ==> Encontrar tudo que não for caracteres de palavra.
         // []
 
+        // existem 4 tipos de decodificadores
+        // ? zero ou uma ocorrência
+        // * zero ou mais ocorrência
+        // + uma ou mais ocorrências
+        //[m, m] de n até m ocorrência
+        // ( ) agrupa uma expressão
+        // | coloca ou
+        // $ fim de linha
+
+        // exemplos:
+        // o(v|c)o = ovo, oco
+
+
+
         int hex = 0x1;
         int numerosHex = 0XaFF;
-        String regex = "0[xX][0-9a-fF-F]";
-        String texto = "12 0x 0X 0xFFABC 0x10G 0x1";
+        String regex = "0[xX]([0-9a-fA-F])+(\\s|$)";
+        String texto = "12 0x 0X 0xFFABC 0x10G 0x1 ";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
         System.out.println("Texto: " + texto);
