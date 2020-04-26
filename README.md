@@ -150,7 +150,6 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **94. Regular Expressions 6**
 - **95. Tokens and Delimiters With String And Scanner**
 
-
 ### PACKAGES:
 
 - **99. Declaring Packages**
