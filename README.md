@@ -152,6 +152,23 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **96. Resource Bundles**
 - **97. Resource Bundles 2**
 
+### INPUT AND OUTPUT:
+
+- **98. File Class**
+- **165. Stream Of Bytes**
+- **166. Package Java.io.Stream**
+- **167. Package Java.io.OutputSteam**
+- **168. Reading And Writing Bytes Into Files**
+- **169. Reading And Writing Primitive Types Into Files**
+- **170. Optimizing Writing and Reading With Buffers**
+- **171. Serializing Objects**
+- **172. Filtering Files**
+- **173. Stream Of Characters**
+- **174. Package Java.io.Writer**
+- **175. Package Java.io.Reader**
+- **176. Reading And Writing Files**
+- **177. Reading And Writing Files With Buffer**
+
 ### PACKAGES:
 
 - **99. Declaring Packages**
@@ -206,21 +223,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **163. Generic Methods**
 - **164. Generic Declarations**
 
-> ### INPUT AND OUTPUT:
-
-- **165. Stream Of Bytes**
-- **166. Package Java.io.Stream**
-- **167. Package Java.io.OutputSteam**
-- **168. Reading And Writing Bytes Into Files**
-- **169. Reading And Writing Primitive Types Into Files**
-- **170. Optimizing Writing and Reading With Buffers**
-- **171. Serializing Objects**
-- **172. Filtering Files**
-- **173. Stream Of Characters**
-- **174. Package Java.io.Writer**
-- **175. Package Java.io.Reader**
-- **176. Reading And Writing Files**
-- **177. Reading And Writing Files With Buffer**
+> 
 
 > ### MULTI-THREADS:
 

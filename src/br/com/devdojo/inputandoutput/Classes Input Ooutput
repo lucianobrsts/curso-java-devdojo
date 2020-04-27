@@ -1,0 +1,8 @@
+File - Classe básica para criar arquivos em java
+
+FileReader - clesse usada para criar arquivos e ler seus conteúdos
+
+BufferReader - Otimiza a ação em cima fa FileReader, ela não é otimizada para leitura de grandes arquivos, pois cria buffer de memória para agilizar a leitura
+
+FileWriter
+BufferredWhiter - As duas tem a mesma utilidade porém a BufferedWriter é mais otimizada para escrita do que a FileWriter
