@@ -155,6 +155,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 ### INPUT AND OUTPUT:
 
 - **98. File Class**
+- **99. FileWriter And FileReader**
 - **165. Stream Of Bytes**
 - **166. Package Java.io.Stream**
 - **167. Package Java.io.OutputSteam**
