@@ -160,6 +160,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **101. File Class For Directory**
 - **102. Console Class**
 - **103. Introduction New Classes: Path, Paths And Files**
+- **104. Basic Use Classes: Path, Paths And Files**
 - **165. Stream Of Bytes**
 - **166. Package Java.io.Stream**
 - **167. Package Java.io.OutputSteam**
