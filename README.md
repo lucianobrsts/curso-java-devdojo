@@ -156,12 +156,12 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **98. File Class**
 - **99. FileWriter And FileReader**
+- **100. Optimizing Writing and Reading With Buffers**
 - **165. Stream Of Bytes**
 - **166. Package Java.io.Stream**
 - **167. Package Java.io.OutputSteam**
 - **168. Reading And Writing Bytes Into Files**
 - **169. Reading And Writing Primitive Types Into Files**
-- **170. Optimizing Writing and Reading With Buffers**
 - **171. Serializing Objects**
 - **172. Filtering Files**
 - **173. Stream Of Characters**
