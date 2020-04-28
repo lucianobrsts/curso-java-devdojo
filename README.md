@@ -157,6 +157,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **98. File Class**
 - **99. FileWriter And FileReader**
 - **100. Optimizing Writing and Reading With Buffers**
+- **101. File Class For Directory**
 - **165. Stream Of Bytes**
 - **166. Package Java.io.Stream**
 - **167. Package Java.io.OutputSteam**
