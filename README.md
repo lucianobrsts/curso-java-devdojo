@@ -164,6 +164,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **105. Normalizing Paths**
 - **106. Solving Paths**
 - **107. Relativize Paths**
+- **108. BasicFileAttributes And BasicFileAttributeView**
 - **166. Package Java.io.Stream**
 - **167. Package Java.io.OutputSteam**
 - **168. Reading And Writing Bytes Into Files**
