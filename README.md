@@ -162,7 +162,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **103. Introduction New Classes: Path, Paths And Files**
 - **104. Basic Use Classes: Path, Paths And Files**
 - **105. Normalizing Paths**
-- **165. Stream Of Bytes**
+- **106. Solving Paths**
 - **166. Package Java.io.Stream**
 - **167. Package Java.io.OutputSteam**
 - **168. Reading And Writing Bytes Into Files**
