@@ -169,17 +169,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **110. PosixFileAttribute And PosixFileAttributeView**
 - **111. DirectoryStream And SimpleFileVisitor**
 - **112. PathMatcher**
-- **166. Package Java.io.Stream**
-- **167. Package Java.io.OutputSteam**
-- **168. Reading And Writing Bytes Into Files**
-- **169. Reading And Writing Primitive Types Into Files**
-- **171. Serializing Objects**
-- **172. Filtering Files**
-- **173. Stream Of Characters**
-- **174. Package Java.io.Writer**
-- **175. Package Java.io.Reader**
-- **176. Reading And Writing Files**
-- **177. Reading And Writing Files With Buffer**
+- **113. InputStream And OutPutStream**
 
 ### PACKAGES:
 
