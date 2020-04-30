@@ -167,6 +167,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **108. BasicFileAttributes And BasicFileAttributeView**
 - **109. DosFileAttributes And DosFileAttributeView**
 - **110. PosixFileAttribute And PosixFileAttributeView**
+- **111. DirectoryStream And SimpleFileVisitor**
 - **166. Package Java.io.Stream**
 - **167. Package Java.io.OutputSteam**
 - **168. Reading And Writing Bytes Into Files**
