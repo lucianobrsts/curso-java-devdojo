@@ -170,6 +170,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **111. DirectoryStream And SimpleFileVisitor**
 - **112. PathMatcher**
 - **113. InputStream And OutPutStream**
+- **114. Ziping Files With Java**
 
 ### PACKAGES:
 
