@@ -175,8 +175,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 > ### COLLECTIONS:
 
-- **116. Collections FrameWork Methods Equals()**
-- **117. Collections FrameWork Methods hashcode()**
+- **116. Methods Equals()**
+- **117. Methods hashcode()**
+- **118. Collections FrameWork Introduction**
 - **129. Interface Java.Util.Collection**
 - **130. Interface Java.Util.List**
 - **131. ArrayList**
