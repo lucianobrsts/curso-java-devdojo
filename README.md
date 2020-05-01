@@ -171,6 +171,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **112. PathMatcher**
 - **113. InputStream And OutPutStream**
 - **114. Ziping Files With Java**
+- **115. Serialization**
 
 ### PACKAGES:
 
