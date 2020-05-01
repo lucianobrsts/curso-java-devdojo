@@ -14,11 +14,12 @@ public class ListTest {
 //        System.out.println("size: " + nomes.size());
 //        System.out.println(nomes.remove("DevDojo"));
 //        System.out.println("size: " + nomes.size());
+        nomes.clear();
         nomes.addAll(nomes2);
-        nomes.remove("DevDojo");
+//        nomes.remove("DevDojo");
 
         int size = nomes.size();
-        for(int i = 0; i < size; i++) {
+        for (int i = 0; i < size; i++) {
             System.out.println(nomes.get(i));
         }
         List<Integer> numeros = new ArrayList<>();
@@ -26,7 +27,8 @@ public class ListTest {
         numeros.add(11);
         numeros.add(12);
         System.out.println("List Números: ");
-        for(Integer num : numeros) {
+
+        for (Integer num : numeros) {
             System.out.print(num + " ");
         }
     }

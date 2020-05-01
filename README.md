@@ -179,8 +179,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **117. Methods hashcode()**
 - **118. Collections FrameWork Introduction**
 - **119. Interface Java.Util.List**
+- **120. Interface Java.Util.List 2**
 - **129. Interface Java.Util.Collection**
-- **130. Interface Java.Util.List**
 - **131. ArrayList**
 - **132. LinkedList**
 - **133. Set**
