@@ -173,15 +173,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **114. Ziping Files With Java**
 - **115. Serialization**
 
-### PACKAGES:
-
-- **99. Declaring Packages**
-- **100. Using Class From Other Packages**
-- **101. Default Modifier**
-- **102. Static Import**
-
 > ### COLLECTIONS:
 
+- **116. Collections FrameWork Methods Equals()**
 - **127. Collections FrameWork**
 - **128. Methods Equals() And hashcode()**
 - **129. Interface Java.Util.Collection**
@@ -204,6 +198,13 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **146. SortedMap And NavigableMap**
 - **147. TreeMap**
 - **148. OverView Collections**
+
+### PACKAGES:
+
+- **99. Declaring Packages**
+- **100. Using Class From Other Packages**
+- **101. Default Modifier**
+- **102. Static Import**
 
 > ### JAVA DATABASE CONNECTIVITY - JDBC:
 
