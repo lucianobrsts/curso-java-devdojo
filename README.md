@@ -185,12 +185,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **123. Binary Search in Lists And Arrays**
 - **124. Converting Arrays To List And List To Arrays**
 - **125. Removing Elements From The List With Iterator**
-- **131. ArrayList**
-- **132. LinkedList**
-- **133. Set**
-- **134. HashSet**
-- **135. Iterator**
-- **136. Linkedhashset**
+- **126. Collections Set, HashSet And Linkedhashset**
 - **137. SortedSet and NavigableSet**
 - **138. TreeSet**
 - **139. How To Order Arrays And Lists**
