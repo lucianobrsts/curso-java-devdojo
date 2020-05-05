@@ -187,14 +187,12 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **125. Removing Elements From The List With Iterator**
 - **126. Collections Set, HashSet And LinkedHashSet**
 - **127. Collections NavigableSet And TreeSet**
+- **128. Collections Map, HashMap And LinkedHashMap**
 - **140. Interface Queue**
 - **141. Interface Deque**
 - **142. Interface Map**
-- **143. HashMap**
 - **144. HashTable**
-- **145. LinkedHashMap**
 - **146. SortedMap And NavigableMap**
-- **147. TreeMap**
 - **148. OverView Collections**
 
 ### PACKAGES:
