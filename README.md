@@ -181,14 +181,12 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **119. Interface Java.Util.List**
 - **120. Interface Java.Util.List 2**
 - **121. Sorting Lists With Comparable**
-- **122. Sorting Lists And Arrays With Comparator**
+- **122. How To Order Arrays And Lists With Comparator**
 - **123. Binary Search in Lists And Arrays**
 - **124. Converting Arrays To List And List To Arrays**
 - **125. Removing Elements From The List With Iterator**
-- **126. Collections Set, HashSet And Linkedhashset**
-- **137. SortedSet and NavigableSet**
-- **138. TreeSet**
-- **139. How To Order Arrays And Lists**
+- **126. Collections Set, HashSet And LinkedHashSet**
+- **127. Collections NavigableSet And TreeSet**
 - **140. Interface Queue**
 - **141. Interface Deque**
 - **142. Interface Map**
