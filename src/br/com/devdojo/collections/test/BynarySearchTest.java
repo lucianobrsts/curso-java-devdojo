@@ -25,10 +25,10 @@ public class BynarySearchTest {
 
         List<Produto> produtos = new ArrayList<>();
 
-        Produto produto1 = new Produto("123", "LapTop Lenovo", 2000.0);
-        Produto produto2 = new Produto("321", "Picanha", 26.40);
-        Produto produto3 = new Produto("112", "Teclado Razer", 1000.0);
-        Produto produto4 = new Produto("012", "Samsung Galaxi S7", 3250.0);
+        Produto produto1 = new Produto("123", "LapTop Lenovo", 2000.0, 0);
+        Produto produto2 = new Produto("321", "Picanha", 26.40, 10);
+        Produto produto3 = new Produto("112", "Teclado Razer", 1000.0, 5);
+        Produto produto4 = new Produto("012", "Samsung Galaxi S7", 3250.0, 0);
 
         produtos.add(produto1);
         produtos.add(produto2);
@@ -37,7 +37,7 @@ public class BynarySearchTest {
 
         Collections.sort(produtos, new ProdutoNomeComparator());
 
-        Produto produto5 = new Produto("", "Antena", 50.0);
+        Produto produto5 = new Produto("", "Antena", 50.0, 15);
 
         for (Produto produto : produtos) {
             System.out.println(produto);
