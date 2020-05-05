@@ -182,6 +182,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **120. Interface Java.Util.List 2**
 - **121. Sorting Lists With Comparable**
 - **122. Sorting Lists And Arrays With Comparator**
+- **123. Binary Search in Lists And Arrays**
 - **131. ArrayList**
 - **132. LinkedList**
 - **133. Set**
