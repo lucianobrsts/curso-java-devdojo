@@ -195,6 +195,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 ### GENERICS:
 
 - **132. Generic Types**
+- **133. Generic Wildcard Character**
 - **161. Generic And Legacy Code**
 - **162. Polymorphism And Generics**
 - **163. Generic Methods**
