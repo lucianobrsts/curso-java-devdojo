@@ -199,6 +199,13 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **134. Generic Classes**
 - **135. Generic Methods**
 
+### INNER CLASSES:
+
+- **136. Inner Classes Or Nested Classes**
+- **133. Generic Wildcard Character**
+- **134. Generic Classes**
+- **135. Generic Methods**
+
 ### JAVA DATABASE CONNECTIVITY - JDBC:
 
 - **149. Design Patterns - DAO**
