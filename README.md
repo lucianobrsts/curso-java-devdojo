@@ -194,7 +194,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 ### GENERICS:
 
-- **160. Generic Types**
+- **132. Generic Types**
 - **161. Generic And Legacy Code**
 - **162. Polymorphism And Generics**
 - **163. Generic Methods**
