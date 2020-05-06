@@ -12,7 +12,7 @@ public class ClasseGenericaTest {
         carrosDisponiveis.add(new Carro("Gol"));
         carrosDisponiveis.add(new Carro("BMW"));
 
-        ObjettosAlugaveis<Carro> carroAlugavel = new ObjettosAlugaveis<>(carrosDisponiveis);
+        ObjetosAlugaveis<Carro> carroAlugavel = new ObjetosAlugaveis<>(carrosDisponiveis);
         Carro carro = carroAlugavel.getObjetoDisponivel();
         System.out.println("Usando carro por um mês: ");
         carroAlugavel.devolverObjeto(carro);
@@ -23,7 +23,7 @@ public class ClasseGenericaTest {
 
         computadoresDisponiveis.add(new Computador("AlleWare"));
         computadoresDisponiveis.add(new Computador("HP"));
-        ObjettosAlugaveis<Computador> computadorAlugavel = new ObjettosAlugaveis<>(computadoresDisponiveis);
+        ObjetosAlugaveis<Computador> computadorAlugavel = new ObjetosAlugaveis<>(computadoresDisponiveis);
         Computador c = computadorAlugavel.getObjetoDisponivel();
         System.out.println("Usando Computador");
         computadorAlugavel.devolverObjeto(c);
@@ -31,10 +31,10 @@ public class ClasseGenericaTest {
 }
 
 //Type
-class ObjettosAlugaveis<T> {
+class ObjetosAlugaveis<T> {
     private List<T> objetosDisponiveis = new ArrayList<>();
 
-    public ObjettosAlugaveis(List<T> objetosDisponiveis) {
+    public ObjetosAlugaveis(List<T> objetosDisponiveis) {
         this.objetosDisponiveis = objetosDisponiveis;
     }
 

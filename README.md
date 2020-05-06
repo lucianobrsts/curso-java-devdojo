@@ -197,17 +197,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **132. Generic Types**
 - **133. Generic Wildcard Character**
 - **134. Generic Classes**
-- **161. Generic And Legacy Code**
-- **162. Polymorphism And Generics**
-- **163. Generic Methods**
-- **164. Generic Declarations**
-
-### PACKAGES:
-
-- **99. Declaring Packages**
-- **100. Using Class From Other Packages**
-- **101. Default Modifier**
-- **102. Static Import**
+- **135. Generic Methods**
 
 ### JAVA DATABASE CONNECTIVITY - JDBC:
 
@@ -235,5 +225,12 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **184. Locks**
 - **185. Thread DeadLock**
 - **186. Thread Interaction**
+
+### PACKAGES:
+
+- **99. Declaring Packages**
+- **100. Using Class From Other Packages**
+- **101. Default Modifier**
+- **102. Static Import**
 
 
