@@ -5,7 +5,7 @@ public class ClassesLocaisTest {
 
     public void fazAlgumaCoisa() {
         String sobrenome = "Brito";
-        class Interna {
+         class Interna {
             public void imprimeNomeExterno() {
                 System.out.println(nome);
             }

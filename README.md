@@ -203,7 +203,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **136. Inner Classes Or Nested Classes**
 - **137. Local Inner Class**
-- **134. Generic Classes**
+- **138. Anonymous Classes**
 - **135. Generic Methods**
 
 ### JAVA DATABASE CONNECTIVITY - JDBC:
