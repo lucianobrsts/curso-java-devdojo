@@ -188,6 +188,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **126. Collections Set, HashSet And LinkedHashSet**
 - **127. Collections NavigableSet And TreeSet**
 - **128. Collections Map, HashMap And LinkedHashMap**
+- **129. Collections Map, HashMap And LinkedHashMap 2**
 - **140. Interface Queue**
 - **141. Interface Deque**
 - **142. Interface Map**
