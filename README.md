@@ -190,8 +190,15 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **128. Collections Map, HashMap And LinkedHashMap**
 - **129. Collections Map, HashMap And LinkedHashMap 2**
 - **130. NavigableMap And TreeMap**
-- **140. Interface Queue**
-- **141. Interface Deque**
+- **131. Queue And PriorityQueue**
+
+### GENERICS:
+
+- **160. Generic Types**
+- **161. Generic And Legacy Code**
+- **162. Polymorphism And Generics**
+- **163. Generic Methods**
+- **164. Generic Declarations**
 
 ### PACKAGES:
 
@@ -200,7 +207,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **101. Default Modifier**
 - **102. Static Import**
 
-> ### JAVA DATABASE CONNECTIVITY - JDBC:
+### JAVA DATABASE CONNECTIVITY - JDBC:
 
 - **149. Design Patterns - DAO**
 - **150. Driver JDBC**
@@ -214,17 +221,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **158. Package Java.SQL.ResultSet**
 - **159. Package Java.SQL.PreparedStatement**
 
-> ### GENERICS:
 
-- **160. Generic Types**
-- **161. Generic And Legacy Code**
-- **162. Polymorphism And Generics**
-- **163. Generic Methods**
-- **164. Generic Declarations**
-
-> 
-
-> ### MULTI-THREADS:
+### MULTI-THREADS:
 
 - **178. Defining, Instantiating And Starting Threads**
 - **179. Thread States And Transitions**
