@@ -3,6 +3,7 @@ package br.com.devdojo.jdbc.conn;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class ConexaoFactory {
     //java.sql => Possui as Interfaces: (São interfaces pq dependem exclusivamente do schema de banco de dados que está em uso.
@@ -12,19 +13,36 @@ public class ConexaoFactory {
 
     // Driver Manager: é uma classe concreta que busca o conector especifico do banco de dados e devolve uma conexão que lhe permite trabalhar com todas as interfaces.
 
-    public Connection getConexao() {
+    public static Connection getConexao() {
         String url = "jdbc:mysql://localhost:3306/agencia?useSSL=false";
         String user = "root";
         String password = "123456";
 
         try {
 //            Class.forName("com.mysql.jdbc.Driver");
-            Connection connection = DriverManager.getConnection(url, user, password);
-            System.out.println(connection);
-            return connection;
+            return DriverManager.getConnection(url, user, password);
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
+    }
+
+    public static void close(Connection connection) {
+        try {
+            if(connection != null)
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void close(Connection connection, Statement stmt) {
+        close(connection);
+        try {
+            if(stmt != null)
+                connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }
