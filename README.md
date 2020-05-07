@@ -208,7 +208,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 ### JAVA DATABASE CONNECTIVITY - JDBC:
 
-- **149. Design Patterns - DAO**
+- **140. Installing The MySQL Database**
+- **140. Design Patterns - DAO**
 - **150. Driver JDBC**
 - **151. Package Java.SQL**
 - **152. Connecting With Database**
