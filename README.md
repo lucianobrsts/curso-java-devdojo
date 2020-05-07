@@ -210,9 +210,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **140. Installing The MySQL Database**
 - **141. Creating The Database And Tables**
+- **142. Connecting With Database**
 - **150. Driver JDBC**
 - **151. Package Java.SQL**
-- **152. Connecting With Database**
 - **153. Package Java.SQL.DriveManager**
 - **154. Package Java.SQL.Connection**
 - **155. Getting a Connection**
