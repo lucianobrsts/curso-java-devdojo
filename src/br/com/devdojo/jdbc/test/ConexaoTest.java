@@ -19,7 +19,9 @@ public class ConexaoTest {
 
 //        CompradorDB.selectMedaData();
 
-        CompradorDB.checkDriverStatus();
+//        CompradorDB.checkDriverStatus();
+
+        CompradorDB.testTypeScroll();
     }
 
     public static void inserir() {
