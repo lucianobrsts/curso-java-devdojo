@@ -216,7 +216,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **145. ResultSet Selecting Records**
 - **146. ResultSet types and metadata**
 - **147. Methods for Cursor Positioning**
-- **156. Closing Connection**
+- **148. Updating Records Using the Resultset**
 - **157. Package Java.SQL.Statement**
 - **158. Package Java.SQL.ResultSet**
 - **159. Package Java.SQL.PreparedStatement**

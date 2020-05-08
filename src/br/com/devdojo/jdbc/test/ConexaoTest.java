@@ -21,7 +21,9 @@ public class ConexaoTest {
 
 //        CompradorDB.checkDriverStatus();
 
-        CompradorDB.testTypeScroll();
+//        CompradorDB.testTypeScroll();
+
+    CompradorDB.updateNomesToLowerCase();
     }
 
     public static void inserir() {
