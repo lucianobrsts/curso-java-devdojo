@@ -214,7 +214,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **143. Inserting Data in the Database with Statement**
 - **144. Updating and Deleting Statement Data**
 - **145. ResultSet Selecting Records**
-- **154. Package Java.SQL.Connection**
+- **146. ResultSet types and metadata**
 - **155. Getting a Connection**
 - **156. Closing Connection**
 - **157. Package Java.SQL.Statement**
