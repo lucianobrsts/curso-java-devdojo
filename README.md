@@ -212,7 +212,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **141. Creating The Database And Tables**
 - **142. Connecting With Database, Driver JDBC**
 - **143. Inserting Data in the Database with Statement**
-- **151. Package Java.SQL**
+- **144. Updating and Deleting Statement Data**
 - **153. Package Java.SQL.DriveManager**
 - **154. Package Java.SQL.Connection**
 - **155. Getting a Connection**
