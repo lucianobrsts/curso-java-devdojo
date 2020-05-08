@@ -27,8 +27,8 @@ public class Comprador {
     public String toString() {
         return "Comprador{" +
                 "id=" + id +
-                ", cpf='" + cpf + '\'' +
                 ", nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
                 '}';
     }
 
