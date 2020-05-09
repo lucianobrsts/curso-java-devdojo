@@ -218,7 +218,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **147. Methods for Cursor Positioning**
 - **148. Updating Records Using the Resultset**
 - **149. PreparedStatement**
-- **158. Package Java.SQL.ResultSet**
+- **150. Procedures and Functions in the Database with CallableStatement**
 - **159. Package Java.SQL.PreparedStatement**
 
 

@@ -27,7 +27,9 @@ public class ConexaoTest {
 
 //        System.out.println(CompradorDB.searchByNamePreparedStatement("oao"));
 
-        CompradorDB.updatePreparedStetament(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
+//        CompradorDB.updatePreparedStetament(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
+
+        System.out.println(CompradorDB.searchByNameCallableStatement("oao"));
     }
 
     public static void inserir() {

@@ -130,6 +130,25 @@ public class CompradorDB {
         return null;
     }
 
+    public static List<Comprador> searchByNameCallableStatement(String nome) {
+        String sql = "CALL `agencia`.`SP_GetCompradoresPorNome`( ? )";
+        Connection conn = ConexaoFactory.getConexao();
+        List<Comprador> compradorList = new ArrayList<>();
+        try {
+            CallableStatement cs = conn.prepareCall(sql);
+            cs.setString(1, "%" + nome + "%");
+            ResultSet rs = cs.executeQuery();
+            while (rs.next()) {
+                compradorList.add(new Comprador(rs.getInt("id"), rs.getString("cpf"), rs.getString("nome")));
+            }
+            ConexaoFactory.close(conn, cs, rs);
+            return compradorList;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     public static void selectMedaData() {
         String sql = "SELECT * FROM agencia.comprador";
         Connection conn = ConexaoFactory.getConexao();
