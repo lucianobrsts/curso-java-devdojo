@@ -33,9 +33,9 @@ public class ConexaoTest {
 
 //        System.out.println(CompradorDB.searchByNameRowSet("oao"));
 
-        CompradorDB.updateRowSet(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
+//        CompradorDB.updateRowSet(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
 
-
+        CompradorDB.updateRowSetCached(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
     }
 
     public static void inserir() {
