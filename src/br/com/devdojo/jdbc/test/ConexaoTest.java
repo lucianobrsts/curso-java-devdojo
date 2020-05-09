@@ -3,6 +3,7 @@ package br.com.devdojo.jdbc.test;
 import br.com.devdojo.jdbc.classes.Comprador;
 import br.com.devdojo.jdbc.db.CompradorDB;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public class ConexaoTest {
@@ -35,7 +36,13 @@ public class ConexaoTest {
 
 //        CompradorDB.updateRowSet(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
 
-        CompradorDB.updateRowSetCached(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
+//        CompradorDB.updateRowSetCached(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
+
+        try {
+            CompradorDB.saveTransaction();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
     }
 
     public static void inserir() {

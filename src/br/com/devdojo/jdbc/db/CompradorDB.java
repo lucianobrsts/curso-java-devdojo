@@ -24,6 +24,34 @@ public class CompradorDB {
         }
     }
 
+    public static void saveTransaction() throws SQLException {
+        String sql1 = "INSERT INTO `agencia`.`comprador` (`cpf`, `nome`) VALUES ('Teste 1', 'Teste 1');";
+        String sql2 = "INSERT INTO `agencia`.`comprador` (`cpf`, `nome`) VALUES ('Teste 2', 'Teste 3');";
+        String sql3 = "INSERT INTO `agencia`.`comprador` (`cpf`, `nome`) VALUES ('Teste 2', 'Teste 3');";
+        Connection conn = ConexaoFactory.getConexao();
+
+        Savepoint savepoint = null;
+
+        try {
+            conn.setAutoCommit(false);
+            Statement stmt = conn.createStatement();
+            stmt.executeUpdate(sql1);
+            savepoint = conn.setSavepoint("Oao");
+            stmt.executeUpdate(sql2);
+            if(true) {
+                throw new SQLException();
+            }
+            stmt.executeUpdate(sql3);
+            conn.commit();
+            ConexaoFactory.close(conn, stmt);
+            System.out.println("Registro inserido com sucesso.");
+        } catch (SQLException e) {
+            e.printStackTrace();
+            conn.rollback(savepoint);
+            conn.commit();
+        }
+    }
+
     public static void delete(Comprador comprador) {
         if (comprador == null || comprador.getId() == null) {
             System.out.println("Não foi possível excluir o comprador.");

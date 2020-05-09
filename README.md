@@ -221,6 +221,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **150. Procedures and Functions in the Database with CallableStatement**
 - **151. Connected RowSet - JdbcRowSet**
 - **152. Disconnected RowSet - CachedRowSet**
+- **153. Transactions**
 
 
 ### MULTI-THREADS:
