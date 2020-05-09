@@ -29,7 +29,13 @@ public class ConexaoTest {
 
 //        CompradorDB.updatePreparedStetament(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
 
-        System.out.println(CompradorDB.searchByNameCallableStatement("oao"));
+//        System.out.println(CompradorDB.searchByNameCallableStatement("oao"));
+
+//        System.out.println(CompradorDB.searchByNameRowSet("oao"));
+
+        CompradorDB.updateRowSet(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
+
+
     }
 
     public static void inserir() {

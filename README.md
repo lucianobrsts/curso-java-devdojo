@@ -219,7 +219,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **148. Updating Records Using the Resultset**
 - **149. PreparedStatement**
 - **150. Procedures and Functions in the Database with CallableStatement**
-- **159. Package Java.SQL.PreparedStatement**
+- **151. Connected RowSet - JdbcRowSet**
 
 
 ### MULTI-THREADS:

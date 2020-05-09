@@ -1,8 +1,10 @@
 package br.com.devdojo.jdbc.db;
 
 import br.com.devdojo.jdbc.classes.Comprador;
+import br.com.devdojo.jdbc.classes.MyRowSetListener;
 import br.com.devdojo.jdbc.conn.ConexaoFactory;
 
+import javax.sql.rowset.JdbcRowSet;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -75,6 +77,33 @@ public class CompradorDB {
         }
     }
 
+    public static void updateRowSet(Comprador comprador) {
+        if (comprador == null || comprador.getId() == null) {
+            System.out.println("Não foi possível atualizar o registro.");
+            return;
+        }
+//        String sql = "UPDATE `agencia`.`comprador` SET `cpf`= ?, `nome`= ? WHERE `id`= ?;";
+        String sql = "SELECT * FROM agencia.comprador WHERE id = ?";
+        JdbcRowSet jrs = ConexaoFactory.getRowSetConection();
+        jrs.addRowSetListener(new MyRowSetListener());
+        try {
+
+            jrs.setCommand(sql);
+//            jrs.setString(1, comprador.getCpf());
+//            jrs.setString(2, comprador.getNome());
+            jrs.setInt(1, comprador.getId());
+            jrs.execute();
+            jrs.next();
+            jrs.updateString("nome", "LUCIANO");
+            jrs.updateRow();
+
+            ConexaoFactory.close(jrs);
+            System.out.println("Registro atualizado com sucesso.");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static List<Comprador> selectAll() {
         String sql = "SELECT * FROM agencia.comprador;";
         Connection conn = ConexaoFactory.getConexao();
@@ -123,6 +152,27 @@ public class CompradorDB {
                 compradorList.add(new Comprador(rs.getInt("id"), rs.getString("cpf"), rs.getString("nome")));
             }
             ConexaoFactory.close(conn, ps, rs);
+            return compradorList;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static List<Comprador> searchByNameRowSet(String nome) {
+        String sql = "SELECT * FROM agencia.comprador WHERE nome LIKE ?;";
+        JdbcRowSet jrs = ConexaoFactory.getRowSetConection();
+        jrs.addRowSetListener(new MyRowSetListener());
+        List<Comprador> compradorList = new ArrayList<>();
+        try {
+            jrs.setCommand(sql);
+            // PreparedStatement ps = jrs.prepareStatement(sql);
+            jrs.setString(1, "%" + nome + "%");
+            jrs.execute();
+            while (jrs.next()) {
+                compradorList.add(new Comprador(jrs.getInt("id"), jrs.getString("cpf"), jrs.getString("nome")));
+            }
+            ConexaoFactory.close(jrs);
             return compradorList;
         } catch (SQLException e) {
             e.printStackTrace();
