@@ -10,7 +10,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CompradorDB {
+public class CompradorDBOLD {
     public static void save(Comprador comprador) {
         String sql = "INSERT INTO `agencia`.`comprador` (`cpf`, `nome`) VALUES ('" + comprador.getCpf() + "', '" + comprador.getNome() + "');";
         Connection conn = ConexaoFactory.getConexao();

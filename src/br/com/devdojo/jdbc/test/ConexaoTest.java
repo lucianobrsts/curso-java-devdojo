@@ -1,7 +1,7 @@
 package br.com.devdojo.jdbc.test;
 
 import br.com.devdojo.jdbc.classes.Comprador;
-import br.com.devdojo.jdbc.db.CompradorDB;
+import br.com.devdojo.jdbc.db.CompradorDBOLD;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -39,7 +39,7 @@ public class ConexaoTest {
 //        CompradorDB.updateRowSetCached(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
 
         try {
-            CompradorDB.saveTransaction();
+            CompradorDBOLD.saveTransaction();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
@@ -47,25 +47,25 @@ public class ConexaoTest {
 
     public static void inserir() {
         Comprador comprador = new Comprador("736.004.800-14", "Priscilla");
-        CompradorDB.save(comprador);
+        CompradorDBOLD.save(comprador);
     }
 
     public static void deletar() {
         Comprador comprador = new Comprador();
         comprador.setId(2);
-        CompradorDB.delete(comprador);
+        CompradorDBOLD.delete(comprador);
     }
 
     public static void atualizar() {
         Comprador comprador = new Comprador(1, "MARIA", "111.111.111.-00");
-        CompradorDB.update(comprador);
+        CompradorDBOLD.update(comprador);
     }
 
     public static List<Comprador> selecionarTudo() {
-        return CompradorDB.selectAll();
+        return CompradorDBOLD.selectAll();
     }
 
     public static List<Comprador> buscarPorNome(String nome) {
-        return CompradorDB.searchByName(nome);
+        return CompradorDBOLD.searchByName(nome);
     }
 }

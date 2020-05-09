@@ -222,6 +222,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **151. Connected RowSet - JdbcRowSet**
 - **152. Disconnected RowSet - CachedRowSet**
 - **153. Transactions**
+- **154. JDBC CRUD**
 
 
 ### MULTI-THREADS:
