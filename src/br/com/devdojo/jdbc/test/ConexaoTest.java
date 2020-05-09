@@ -23,7 +23,11 @@ public class ConexaoTest {
 
 //        CompradorDB.testTypeScroll();
 
-    CompradorDB.updateNomesToLowerCase();
+//        CompradorDB.updateNomesToLowerCase();
+
+//        System.out.println(CompradorDB.searchByNamePreparedStatement("oao"));
+
+        CompradorDB.updatePreparedStetament(new Comprador(1, "011.011.011-01", "Prepared Statement da Silva"));
     }
 
     public static void inserir() {

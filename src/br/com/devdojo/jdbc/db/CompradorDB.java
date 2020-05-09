@@ -55,6 +55,26 @@ public class CompradorDB {
         }
     }
 
+    public static void updatePreparedStetament(Comprador comprador) {
+        if (comprador == null || comprador.getId() == null) {
+            System.out.println("Não foi possível atualizar o registro.");
+            return;
+        }
+        String sql = "UPDATE `agencia`.`comprador` SET `cpf`= ?, `nome`= ? WHERE `id`= ?;";
+        Connection conn = ConexaoFactory.getConexao();
+        try {
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1, comprador.getCpf());
+            ps.setString(2, comprador.getNome());
+            ps.setInt(3, comprador.getId());
+            ps.executeUpdate();
+            ConexaoFactory.close(conn, ps);
+            System.out.println("Registro atualizado com sucesso.");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static List<Comprador> selectAll() {
         String sql = "SELECT * FROM agencia.comprador;";
         Connection conn = ConexaoFactory.getConexao();
@@ -84,6 +104,25 @@ public class CompradorDB {
                 compradorList.add(new Comprador(rs.getInt("id"), rs.getString("cpf"), rs.getString("nome")));
             }
             ConexaoFactory.close(conn, stmt, rs);
+            return compradorList;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static List<Comprador> searchByNamePreparedStatement(String nome) {
+        String sql = "SELECT * FROM agencia.comprador WHERE nome LIKE ?;";
+        Connection conn = ConexaoFactory.getConexao();
+        List<Comprador> compradorList = new ArrayList<>();
+        try {
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1, "%" + nome + "%");
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                compradorList.add(new Comprador(rs.getInt("id"), rs.getString("cpf"), rs.getString("nome")));
+            }
+            ConexaoFactory.close(conn, ps, rs);
             return compradorList;
         } catch (SQLException e) {
             e.printStackTrace();
