@@ -1,5 +1,6 @@
 package br.com.devdojo.jdbc.db;
 
+import br.com.devdojo.jdbc.classes.Carro;
 import br.com.devdojo.jdbc.classes.Comprador;
 import br.com.devdojo.jdbc.conn.ConexaoFactory;
 
@@ -10,14 +11,15 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CompradorDAO {
-    public static void save(Comprador comprador) {
-        String sql = "INSERT INTO `agencia`.`comprador` (`cpf`, `nome`) VALUES (?, ?);";
+public class CarroDAO {
+    public static void save(Carro carro) {
+        String sql = "INSERT INTO `agencia`.`carro` (`nome`, `placa`, `compradorid`) VALUES (?, ?, ?);";
 
         try (Connection conn = ConexaoFactory.getConexao();
              PreparedStatement ps = conn.prepareStatement(sql);) {
-            ps.setString(1, comprador.getCpf());
-            ps.setString(2, comprador.getNome());
+            ps.setString(1, carro.getNome());
+            ps.setString(2, carro.getPlaca());
+            ps.setInt(3, carro.getComprador().getId());
             ps.executeUpdate();
             System.out.println("---------------------------------");
             System.out.println("Registro inserido com sucesso.");
@@ -27,15 +29,15 @@ public class CompradorDAO {
         }
     }
 
-    public static void delete(Comprador comprador) {
-        if (comprador == null || comprador.getId() == null) {
-            System.out.println("Não foi possível excluir o comprador.");
+    public static void delete(Carro carro) {
+        if (carro == null || carro.getId() == null) {
+            System.out.println("Não foi possível excluir o carro.");
             return;
         }
-        String sql = "DELETE FROM `agencia`.`comprador` WHERE `id`= ?;";
+        String sql = "DELETE FROM `agencia`.`carro` WHERE `id`= ?;";
         try (Connection conn = ConexaoFactory.getConexao();
              PreparedStatement ps = conn.prepareStatement(sql);) {
-            ps.setInt(1, comprador.getId());
+            ps.setInt(1, carro.getId());
             ps.executeUpdate();
             System.out.println("---------------------------------");
             System.out.println("Registro excluído com sucesso.");
@@ -45,17 +47,17 @@ public class CompradorDAO {
         }
     }
 
-    public static void update(Comprador comprador) {
-        if (comprador == null || comprador.getId() == null) {
+    public static void update(Carro carro) {
+        if (carro == null || carro.getId() == null) {
             System.out.println("Não foi possível atualizar o registro.");
             return;
         }
-        String sql = "UPDATE `agencia`.`comprador` SET `cpf`= ?, `nome`=? WHERE `id`= ?";
+        String sql = "UPDATE `agencia`.`carro` SET `placa`= ?, `nome`=? WHERE `id`= ?";
         try (Connection conn = ConexaoFactory.getConexao();
              PreparedStatement ps = conn.prepareStatement(sql);) {
-            ps.setString(1, comprador.getCpf());
-            ps.setString(2, comprador.getNome());
-            ps.setInt(3, comprador.getId());
+            ps.setString(1, carro.getPlaca());
+            ps.setString(2, carro.getNome());
+            ps.setInt(3, carro.getId());
             ps.executeUpdate();
             System.out.println("---------------------------------");
             System.out.println("Registro atualizado com sucesso.");
@@ -65,27 +67,28 @@ public class CompradorDAO {
         }
     }
 
-    public static List<Comprador> selectAll() {
-        String sql = "SELECT * FROM agencia.comprador;";
-        List<Comprador> compradorList = new ArrayList<>();
+    public static List<Carro> selectAll() {
+        String sql = "SELECT id, nome, placa, compradorid FROM agencia.carro;";
+        List<Carro> carroList = new ArrayList<>();
 
         try (Connection conn = ConexaoFactory.getConexao();
              PreparedStatement ps = conn.prepareStatement(sql);
              ResultSet rs = ps.executeQuery()) {
 
             while (rs.next()) {
-                compradorList.add(new Comprador(rs.getInt("id"), rs.getString("cpf"), rs.getString("nome")));
+                Comprador comprador = CompradorDAO.searchById(rs.getInt("compradorid"));
+                carroList.add(new Carro(rs.getInt("id"), rs.getString("placa"), rs.getString("nome"), comprador));
             }
-            return compradorList;
+            return carroList;
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return null;
     }
 
-    public static List<Comprador> searchByName(String nome) {
-        String sql = "SELECT id, nome, cpf FROM agencia.comprador WHERE nome LIKE ?";
-        List<Comprador> compradorList = new ArrayList<>();
+    public static List<Carro> searchByName(String nome) {
+        String sql = "SELECT id, nome, placa, compradorid FROM agencia.carro WHERE nome LIKE ?";
+        List<Carro> carroList = new ArrayList<>();
 
         try (Connection conn = ConexaoFactory.getConexao();
              PreparedStatement ps = conn.prepareStatement(sql)) {
@@ -93,30 +96,11 @@ public class CompradorDAO {
             ResultSet rs = ps.executeQuery();
 
             while (rs.next()) {
-                compradorList.add(new Comprador(rs.getInt("id"), rs.getString("cpf"), rs.getString("nome")));
+                Comprador comprador = CompradorDAO.searchById(rs.getInt("compradorid"));
+                carroList.add(new Carro(rs.getInt("id"), rs.getString("placa"), rs.getString("nome"), comprador));
             }
             ConexaoFactory.close(conn, ps, rs);
-            return compradorList;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
-    public static Comprador searchById(Integer id) {
-        String sql = "SELECT id, nome, cpf FROM agencia.comprador WHERE id = ?";
-        Comprador comprador = null;
-
-        try (Connection conn = ConexaoFactory.getConexao();
-             PreparedStatement ps = conn.prepareStatement(sql)) {
-            ps.setInt(1, id);
-            ResultSet rs = ps.executeQuery();
-
-            if (rs.next()) {
-                comprador = new Comprador(rs.getInt("id"), rs.getString("cpf"), rs.getString("nome"));
-            }
-            ConexaoFactory.close(conn, ps, rs);
-            return comprador;
+            return carroList;
         } catch (SQLException e) {
             e.printStackTrace();
         }
