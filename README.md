@@ -231,7 +231,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **157. Thread States And Transitions With Sleep, Yield And Join**
 - **158. Thread Priorities And Sleep(), Yield() And Join()**
 - **159. Synchronizing Code And Locks**
-- **185. Thread DeadLock**
+- **160. Synchronizing Code And DeadLock**
 - **186. Thread Interaction**
 
 ### PACKAGES:
