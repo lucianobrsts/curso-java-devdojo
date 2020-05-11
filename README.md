@@ -228,7 +228,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 ### THREADS:
 
 - **156. Defining, Instantiating And Starting Threads**
-- **179. Thread States And Transitions**
+- **157. Thread States And Transitions**
 - **180. Prevent Thread Execution**
 - **181. Sleeping**
 - **182. Thread Priorities And Yield()**
