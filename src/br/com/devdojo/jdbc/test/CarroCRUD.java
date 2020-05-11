@@ -84,22 +84,37 @@ public class CarroCRUD {
 
     private static void buscarPorNome(String nome) {
         List<Carro> carroList = CarroDAO.searchByName(nome);
-        System.out.println(" ----- Lista de Carroes ----- ");
-        for (int i = 0; i < carroList.size(); i++) {
-            Carro c = carroList.get(i);
-            System.out.println("[" + i + "] Nome: " + c.getNome() + " Placa: " + c.getPlaca() + " Comprador: " + c.getComprador().getNome());
+
+        if (carroList.isEmpty()) {
+            System.out.println(" ----- Lista de Carros ----- ");
+            System.out.println("Não existe carros cadastrados.");
+            System.out.println("----------------------------------");
+        } else {
+            System.out.println(" ----- Lista de Carroes ----- ");
+            for (int i = 0; i < carroList.size(); i++) {
+                Carro c = carroList.get(i);
+                System.out.println("[" + i + "] Nome: " + c.getNome() + " Placa: " + c.getPlaca() + " Comprador: " + c.getComprador().getNome());
+            }
+            System.out.println("----------------------------------");
         }
-        System.out.println("----------------------------------");
     }
 
     public static void deletar() {
-        System.out.println("Selecione um dos carros abaixo para deletar: ");
         List<Carro> carroList = listar();
-        int index = Integer.parseInt(teclado.nextLine());
-        System.out.println("Tem certeza que deseja deletar o registro S/N");
-        String op = teclado.nextLine();
-        if (op.equalsIgnoreCase("s")) {
-            CarroDAO.delete(carroList.get(index));
+
+        if (carroList.isEmpty()) {
+            System.out.println(" ----- Lista de Carros ----- ");
+            System.out.println("Não existe carros cadastrados.");
+            System.out.println("----------------------------------");
+        } else {
+            System.out.println("Selecione um dos carros abaixo para deletar: ");
+            int index = Integer.parseInt(teclado.nextLine());
+            System.out.println("Tem certeza que deseja deletar o registro S/N");
+            String op = teclado.nextLine();
+            if (op.equalsIgnoreCase("s")) {
+                CarroDAO.delete(carroList.get(index));
+            }
         }
+
     }
 }

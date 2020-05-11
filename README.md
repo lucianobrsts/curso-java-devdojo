@@ -225,10 +225,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **154. JDBC CRUD**
 - **155. JDBC CRUD 2**
 
+### THREADS:
 
-### MULTI-THREADS:
-
-- **178. Defining, Instantiating And Starting Threads**
+- **156. Defining, Instantiating And Starting Threads**
 - **179. Thread States And Transitions**
 - **180. Prevent Thread Execution**
 - **181. Sleeping**

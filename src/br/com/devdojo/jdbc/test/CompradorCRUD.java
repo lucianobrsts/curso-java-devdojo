@@ -65,32 +65,51 @@ public class CompradorCRUD {
     public static List<Comprador> listar() {
         List<Comprador> compradorList = CompradorDAO.selectAll();
         System.out.println(" ----- Lista de Compradores ----- ");
-        for (int i = 0; i < compradorList.size(); i++) {
-            Comprador c = compradorList.get(i);
-            System.out.println("[" + i + "] Nome: " + c.getNome() + " CPF: " + c.getCpf());
+        if (compradorList.isEmpty()) {
+            System.out.println("Não existe compradores cadastrados.");
+            System.out.println("----------------------------------");
+        } else {
+            for (int i = 0; i < compradorList.size(); i++) {
+                Comprador c = compradorList.get(i);
+                System.out.println("[" + i + "] Nome: " + c.getNome() + " CPF: " + c.getCpf());
+            }
+            System.out.println("----------------------------------");
         }
-        System.out.println("----------------------------------");
         return compradorList;
     }
 
     private static void buscarPorNome(String nome) {
         List<Comprador> compradorList = CompradorDAO.searchByName(nome);
-        System.out.println(" ----- Lista de Compradores ----- ");
-        for (int i = 0; i < compradorList.size(); i++) {
-            Comprador c = compradorList.get(i);
-            System.out.println("[" + i + "] Nome: " + c.getNome() + " CPF: " + c.getCpf());
+
+        if(compradorList.isEmpty()) {
+            System.out.println(" ----- Lista de Compradores ----- ");
+            System.out.println("Não existe compradores cadastrados.");
+            System.out.println("----------------------------------");
+        } else {
+            System.out.println(" ----- Lista de Compradores ----- ");
+            for (int i = 0; i < compradorList.size(); i++) {
+                Comprador c = compradorList.get(i);
+                System.out.println("[" + i + "] Nome: " + c.getNome() + " CPF: " + c.getCpf());
+            }
+            System.out.println("----------------------------------");
         }
-        System.out.println("----------------------------------");
     }
 
     public static void deletar() {
-        System.out.println("Selecione um dos compradores abaixo para deletar: ");
         List<Comprador> compradorList = listar();
-        int index = Integer.parseInt(teclado.nextLine());
-        System.out.println("Tem certeza que deseja deletar o registro S/N");
-        String op = teclado.nextLine();
-        if (op.equalsIgnoreCase("s")) {
-            CompradorDAO.delete(compradorList.get(index));
+
+        if (compradorList.isEmpty()) {
+            System.out.println(" ----- Lista de Compradores ----- ");
+            System.out.println("Não existe compradores cadastrados.");
+            System.out.println("----------------------------------");
+        } else {
+            System.out.println("Selecione um dos compradores abaixo para deletar: ");
+            int index = Integer.parseInt(teclado.nextLine());
+            System.out.println("Tem certeza que deseja deletar o registro S/N");
+            String op = teclado.nextLine();
+            if (op.equalsIgnoreCase("s")) {
+                CompradorDAO.delete(compradorList.get(index));
+            }
         }
     }
 }
