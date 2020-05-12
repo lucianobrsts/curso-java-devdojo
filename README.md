@@ -232,7 +232,14 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **158. Thread Priorities And Sleep(), Yield() And Join()**
 - **159. Synchronizing Code And Locks**
 - **160. Synchronizing Code And DeadLock**
-- **186. Thread Interaction**
+- **186. Thread Interaction With Wait, Notify And NotifyAll**
+
+### DESIGN PATTERNS:
+
+- **99. Declaring Packages**
+- **100. Using Class From Other Packages**
+- **101. Default Modifier**
+- **102. Static Import**
 
 ### PACKAGES:
 
