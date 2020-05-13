@@ -236,6 +236,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **162. Concurrence, Atomic Variables**
 - **163. Concurrence, Lock And ReentrantLock**
 - **164. Concurrence, Conditions**
+- **165. Concurrence, ReentrantReadWriteLock**
 
 ### DESIGN PATTERNS:
 
