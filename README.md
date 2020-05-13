@@ -233,7 +233,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **159. Synchronizing Code And Locks**
 - **160. Synchronizing Code And DeadLock**
 - **161. Thread Interaction With Wait, Notify And NotifyAll**
-- **162. Competition, Atomic Variables**
+- **162. Concurrence, Atomic Variables**
+- **163. Concurrence, Lock And ReentrantLock**
 
 ### DESIGN PATTERNS:
 
