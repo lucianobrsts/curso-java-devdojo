@@ -235,6 +235,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **161. Thread Interaction With Wait, Notify And NotifyAll**
 - **162. Concurrence, Atomic Variables**
 - **163. Concurrence, Lock And ReentrantLock**
+- **164. Concurrence, Conditions**
 
 ### DESIGN PATTERNS:
 
