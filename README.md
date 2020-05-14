@@ -241,15 +241,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **167. Concurrence, Concurrence Collections**
 - **168. Concurrence, Bloking Queues**
 - **169. Concurrence, Executors : Thread Pools**
+- **170. Concurrence, Executors : Scheduled Thread Pool**
 
 ### DESIGN PATTERNS:
-
-- **99. Declaring Packages**
-- **100. Using Class From Other Packages**
-- **101. Default Modifier**
-- **102. Static Import**
-
-### PACKAGES:
 
 - **99. Declaring Packages**
 - **100. Using Class From Other Packages**
