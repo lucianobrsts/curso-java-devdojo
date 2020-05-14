@@ -248,6 +248,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **172. Builder Pattern**
 - **173. Singleton Pattern**
-- **174. Singleton DAO**
+- **174. DAO Pattern**
+- **175. Factory Pattern**
 
 
