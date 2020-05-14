@@ -237,6 +237,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **163. Concurrence, Lock And ReentrantLock**
 - **164. Concurrence, Conditions**
 - **165. Concurrence, ReentrantReadWriteLock**
+- **166. Concurrence, CopyOnWriteArrayList**
 
 ### DESIGN PATTERNS:
 
