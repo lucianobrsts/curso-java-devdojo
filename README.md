@@ -239,7 +239,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **165. Concurrence, ReentrantReadWriteLock**
 - **166. Concurrence, CopyOnWriteArrayList**
 - **167. Concurrence, Concurrence Collections**
-- **168. Concurrence, Bloking Queues**
+- **168. Concurrence, Blocking Queues**
 - **169. Concurrence, Executors : Thread Pools**
 - **170. Concurrence, Executors : Scheduled Thread Pool**
 - **171. Concurrence, Callable Interface**
@@ -248,5 +248,6 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 - **172. Builder Pattern**
 - **173. Singleton Pattern**
+- **174. Singleton DAO**
 
 
