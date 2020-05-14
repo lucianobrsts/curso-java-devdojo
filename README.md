@@ -246,9 +246,6 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 ### DESIGN PATTERNS:
 
-- **99. Declaring Packages**
-- **100. Using Class From Other Packages**
-- **101. Default Modifier**
-- **102. Static Import**
+- **172. Builder Pattern**
 
 
