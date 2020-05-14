@@ -247,5 +247,6 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 ### DESIGN PATTERNS:
 
 - **172. Builder Pattern**
+- **173. Singleton Pattern**
 
 
