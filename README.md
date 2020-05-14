@@ -242,6 +242,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **168. Concurrence, Bloking Queues**
 - **169. Concurrence, Executors : Thread Pools**
 - **170. Concurrence, Executors : Scheduled Thread Pool**
+- **171. Concurrence, Callable Interface**
 
 ### DESIGN PATTERNS:
 
