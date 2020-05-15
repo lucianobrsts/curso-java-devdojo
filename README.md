@@ -257,5 +257,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 
 ### JAVA 8:
 
-- **176. Parameterizing Behaviors**
+- **177. Functional Programming and Lambdas**
 
