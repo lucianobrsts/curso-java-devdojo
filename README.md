@@ -258,4 +258,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 ### JAVA 8:
 
 - **177. Functional Programming and Lambdas**
+- **178. Functional Programming and Lambdas 2**
 
