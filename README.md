@@ -251,4 +251,11 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **174. DAO Pattern**
 - **175. Factory Pattern**
 
+### MORE:
+
+- **176. Parameterizing Behaviors (Predicate Interface)**
+
+### JAVA 8:
+
+- **176. Parameterizing Behaviors**
 
