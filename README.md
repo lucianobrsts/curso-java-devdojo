@@ -264,4 +264,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **181. New Rules for Interfaces, Default Methods**
 - **182. Avoiding NullPointerException with Optional**
 - **183. Avoiding NullPointerException with Optional 2**
+- **183. Avoiding NullPointerException with Optional 3**
 
