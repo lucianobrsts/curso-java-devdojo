@@ -260,4 +260,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **177. Functional Programming and Lambdas**
 - **178. Functional Programming and Lambdas 2**
 - **179. Functional Programming and Lambdas 3**
+- **180. Functional Programming and Lambdas 4 Methods Reference**
 
