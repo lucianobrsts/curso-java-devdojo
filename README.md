@@ -267,4 +267,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **184. Avoiding NullPointerException with Optional 3**
 - **185. Streams**
 - **186. Streams 2**
+- **187. Streams, Map And Flatmap**
 
