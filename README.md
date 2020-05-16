@@ -262,5 +262,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **179. Functional Programming and Lambdas 3**
 - **180. Functional Programming and Lambdas 4 Methods Reference**
 - **181. New Rules for Interfaces, Default Methods**
-- **181. New Rules for Interfaces, Default Methods**
+- **182. Avoiding NullPointerException with Optional**
 
