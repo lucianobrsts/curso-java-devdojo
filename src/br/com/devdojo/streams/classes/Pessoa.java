@@ -1,6 +1,7 @@
 package br.com.devdojo.streams.classes;
 
 import java.util.List;
+import java.util.Objects;
 
 import static java.util.Arrays.asList;
 
@@ -18,7 +19,8 @@ public class Pessoa {
     public static List<Pessoa> bancodePessoas() {
         return asList(
                 new Pessoa("Luciano", 45, 2000),
-                new Pessoa("Mercy", 28, 3500),
+                new Pessoa("Mercy", 22, 3500),
+                new Pessoa("Mercy", 22, 3500),
                 new Pessoa("Anna", 19, 950),
                 new Pessoa("Artur", 27, 400),
                 new Pessoa("David", 22, 1800),
@@ -27,6 +29,19 @@ public class Pessoa {
                 new Pessoa("Derlan", 40, 1300),
                 new Pessoa("Mayrton", 23, 5000)
         );
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Pessoa pessoa = (Pessoa) o;
+        return Objects.equals(nome, pessoa.nome);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome);
     }
 
     public String getNome() {

@@ -18,10 +18,10 @@ public class StreamsTest {
         List<String> nomes = new ArrayList<>();
 
         //Java 7
-        for(Pessoa pessoa: pessoas) {
-            if(pessoa.getIdade() < 25) {
+        for (Pessoa pessoa : pessoas) {
+            if (pessoa.getIdade() < 25) {
                 nomes.add(pessoa.getNome());
-                if(nomes.size() >= 3)  {
+                if (nomes.size() >= 3) {
                     break;
                 }
             }
@@ -35,7 +35,18 @@ public class StreamsTest {
                 .sorted(Comparator.comparing(Pessoa::getNome))
                 .limit(3)
                 .map(Pessoa::getNome)
-                .collect(Collectors.toList());
+                .collect(Collectors.toList()); //Terminal
         System.out.println(nomes2);
+
+        System.out.println(pessoas.stream()
+                .distinct()
+                .filter(p -> p.getIdade() < 25)
+                .map(Pessoa::getNome)
+                .count());
+
+        pessoas.stream().forEach(System.out::println);
+
+        //Métodos Intermediate: Eles retornam um outro stream e permite encadear outros métodos (Eles não executam nenhuma operação até que seja envocada alguma operação terminal)
+        //Métodos Terminal: retornam outro valor que não é stream
     }
 }
