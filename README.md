@@ -269,4 +269,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **186. Streams 2**
 - **187. Streams, Map And Flatmap**
 - **188. Streams, Finding And Matching**
+- **189. Specialized Streams (Primitive Streams)**
 
