@@ -10,9 +10,8 @@ import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.*;
 
 public class StreamTest6Collectors1 {
-    //Redução e sumarização de Streams em um valor único
-    // Agrupamento de elementos
-    //Particionamento de elementos
+    //Conteúdo da aula: Redução e sumarização de Streams em um valor único
+
 
     public static void main(String[] args) {
         List<Pessoa> pessoas = Pessoa.bancodePessoas();

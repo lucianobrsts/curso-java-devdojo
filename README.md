@@ -272,4 +272,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **189. Specialized Streams (Primitive Streams)**
 - **190. Generating Streams**
 - **191. Reducing and Summarizing Streams**
+- **192. Grouping Streams**
 
