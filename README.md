@@ -279,3 +279,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **196. CompletableFuture 2, CompletableFuture operation**
 - **197. CompletableFuture 3, Asynchronous Exception Handling**
 - **198. CompletableFuture 4, Performance Compared to Streams**
+- **199. CompletableFuture 5, CompletableFuture Custom Executor**
+- **200. CompletableFuture 5, CompletableFuture Custom Executor**
