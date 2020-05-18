@@ -273,4 +273,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **190. Generating Streams**
 - **191. Reducing and Summarizing Streams**
 - **192. Grouping Streams**
+- **193. Introduction to Parallel Streams**
 
