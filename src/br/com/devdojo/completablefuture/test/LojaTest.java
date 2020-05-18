@@ -22,10 +22,10 @@ public class LojaTest {
 //        System.out.println(System.currentTimeMillis() - start + " ms");
 
         long start = System.currentTimeMillis();
-        Future<Double> precoAsync = americanas.getPrecoAsync();
-        Future<Double> precoAsync1 = casasBahia.getPrecoAsync();
-        Future<Double> precoAsync2 = bestBuy.getPrecoAsync();
-        Future<Double> precoAsync3 = wallMart.getPrecoAsync();
+        Future<Double> precoAsync = americanas.getPrecoAsyncTunado();
+        Future<Double> precoAsync1 = casasBahia.getPrecoAsyncTunado();
+        Future<Double> precoAsync2 = bestBuy.getPrecoAsyncTunado();
+        Future<Double> precoAsync3 = wallMart.getPrecoAsyncTunado();
         long end = System.currentTimeMillis();
         System.out.println("Tempo de invocação: " + (end - start) + " ms");
         enrolando();

@@ -6,6 +6,15 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
 public class Loja {
+    private String nome;
+
+    public Loja(String nome) {
+        this.nome = nome;
+    }
+
+    public Loja() {
+    }
+
     public double getPreco() {
         //vai pegar o preço onde judas perdeu as botasa
         return calcularPreco();
@@ -23,17 +32,25 @@ public class Loja {
         return precoFuturo;
     }
 
+    public Future<Double> getPrecoAsyncTunado() {
+        return CompletableFuture.supplyAsync(this::calcularPreco);
+    }
+
     private double calcularPreco() {
         delay();
-        System.out.println(1 / 0);
+//        System.out.println(1 / 0);
         return ThreadLocalRandom.current().nextDouble() * 100;
     }
 
     private static void delay() {
         try {
-            TimeUnit.SECONDS.sleep(2);
+            TimeUnit.SECONDS.sleep(1);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public String getNome() {
+        return nome;
     }
 }
