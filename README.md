@@ -276,4 +276,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **193. Introduction to Parallel Streams**
 - **194. When To Use Parallel Streams**
 - **195. CompletableFuture, Asynchronous Programming Introduction**
-- **195. CompletableFuture, CompletableFuture operation**
+- **196. CompletableFuture 2, CompletableFuture operation**
+- **197. CompletableFuture 3, Asynchronous Exception Handling**
