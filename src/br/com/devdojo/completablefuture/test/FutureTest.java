@@ -11,10 +11,11 @@ public class FutureTest {
             return 2000D;
         });
         enrolando();
-
         try {
-            Double resultado = future.get();
-            System.out.println(resultado);
+            while (!future.isDone()) {
+                Double resultado = future.get();
+                System.out.println(resultado);
+            }
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         } finally {

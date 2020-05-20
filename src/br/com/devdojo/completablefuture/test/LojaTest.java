@@ -5,40 +5,36 @@ import br.com.devdojo.completablefuture.classes.Loja;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
+
 public class LojaTest {
     public static void main(String[] args) {
         Loja americanas = new Loja();
         Loja casasBahia = new Loja();
         Loja bestBuy = new Loja();
-        Loja wallMart = new Loja();
-
-        //Executado de forma síncrona ou seja o método fica bloqueado até o anterior ser desbloqueado (fica em estado wati)
+        Loja wallmart = new Loja();
 //        long start = System.currentTimeMillis();
 //        System.out.println(americanas.getPreco());
 //        System.out.println(casasBahia.getPreco());
 //        System.out.println(bestBuy.getPreco());
-//        System.out.println(wallMart.getPreco());
-//
-//        System.out.println(System.currentTimeMillis() - start + " ms");
-
+//        System.out.println(wallmart.getPreco());
+//        System.out.println(System.currentTimeMillis() - start +" ms");
         long start = System.currentTimeMillis();
         Future<Double> precoAsync = americanas.getPrecoAsyncTunado();
         Future<Double> precoAsync1 = casasBahia.getPrecoAsyncTunado();
         Future<Double> precoAsync2 = bestBuy.getPrecoAsyncTunado();
-        Future<Double> precoAsync3 = wallMart.getPrecoAsyncTunado();
+        Future<Double> precoAsync3 = wallmart.getPrecoAsyncTunado();
         long end = System.currentTimeMillis();
         System.out.println("Tempo de invocação: " + (end - start) + " ms");
         enrolando();
-
         try {
-            System.out.println("Americanas " + precoAsync.get());
-            System.out.println("casasBahia " + precoAsync1.get());
-            System.out.println("bestBuy " + precoAsync2.get());
-            System.out.println("wallMart " + precoAsync3.get());
+            System.out.println("Americanas "+precoAsync.get());
+            System.out.println("casasBahia "+precoAsync1.get());
+            System.out.println("bestBuy "+precoAsync2.get());
+            System.out.println("wallmart "+precoAsync3.get());
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
-        System.out.println("Tempo que levou para pegar o resultado: " + (System.currentTimeMillis() - start + " ms"));
+        System.out.println("Tempo que levou para pegar o resultado: "+ (System.currentTimeMillis()-start) +" ms");
     }
 
     private static void enrolando() {

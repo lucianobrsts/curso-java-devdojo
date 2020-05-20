@@ -1,16 +1,11 @@
 package br.com.devdojo.completablefuture.classes;
 
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.Future;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
 import static java.util.Arrays.asList;
 
-/**
- * Created by William Suane on 2/8/2017.
- */
 public class NovaLoja {
     private String nome;
 

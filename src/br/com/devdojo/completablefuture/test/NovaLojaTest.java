@@ -21,13 +21,11 @@ public class NovaLojaTest {
             t.setDaemon(true);
             return t;
         });
-
-//                acharPrecosAsync(lojas, executor);
-
+//        acharPrecosAsync(lojas, executor);
         long start = System.currentTimeMillis();
         CompletableFuture[] completableFutures = acharPrecosStream(lojas, executor)
-                .map(f -> f.thenAccept(s -> System.out.println(s + "(finalizado em: " +
-                        (System.currentTimeMillis() - start) + ")")))
+                .map(f -> f.thenAccept(s -> System.out.println(s+"(finalizado em: "+
+                        (System.currentTimeMillis() - start)+")")))
                 .toArray(CompletableFuture[]::new);
         CompletableFuture.allOf(completableFutures).join();
         CompletableFuture.anyOf(completableFutures).join();
