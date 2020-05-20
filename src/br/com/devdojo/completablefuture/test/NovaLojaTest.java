@@ -11,9 +11,6 @@ import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- * Created by William Suane on 2/8/2017.
- */
 public class NovaLojaTest {
     public static void main(String[] args) {
         List<NovaLoja> lojas = NovaLoja.lojas();
@@ -24,11 +21,13 @@ public class NovaLojaTest {
             t.setDaemon(true);
             return t;
         });
-//        acharPrecosAsync(lojas, executor);
+
+//                acharPrecosAsync(lojas, executor);
+
         long start = System.currentTimeMillis();
         CompletableFuture[] completableFutures = acharPrecosStream(lojas, executor)
-                .map(f -> f.thenAccept(s -> System.out.println(s+"(finalizado em: "+
-                        (System.currentTimeMillis() - start)+")")))
+                .map(f -> f.thenAccept(s -> System.out.println(s + "(finalizado em: " +
+                        (System.currentTimeMillis() - start) + ")")))
                 .toArray(CompletableFuture[]::new);
         CompletableFuture.allOf(completableFutures).join();
         CompletableFuture.anyOf(completableFutures).join();
