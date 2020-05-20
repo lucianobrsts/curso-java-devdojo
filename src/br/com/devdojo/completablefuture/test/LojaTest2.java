@@ -18,7 +18,7 @@ public class LojaTest2 {
                 new Loja("americanas"),
                 new Loja("casasBahia"),
                 new Loja("bastBuy"),
-                new Loja("wwallMart"),
+                new Loja("wallMart"),
                 new Loja("americanas"),
                 new Loja("casasBahia"),
                 new Loja("bastBuy"),

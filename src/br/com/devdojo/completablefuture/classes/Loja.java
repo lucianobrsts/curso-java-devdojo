@@ -16,7 +16,7 @@ public class Loja {
     }
 
     public double getPreco() {
-        //vai pegar o preço onde judas perdeu as botasa
+        //Vai pegar o preco aonde judas perdeu as botas
         return calcularPreco();
     }
 
