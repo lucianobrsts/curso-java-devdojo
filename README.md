@@ -284,3 +284,4 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **201. CompletableFuture 7, Chaining Tasks 2**
 - **202. CompletableFuture 7, Displaying Results Dynamically**
 - **203. New API DateTime LocalDate, LocalTime, LocalDateTime**
+- **204. New API DateTime Instant, Duration, And Period**
