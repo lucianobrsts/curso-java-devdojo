@@ -286,3 +286,4 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **203. New API DateTime LocalDate, LocalTime, LocalDateTime**
 - **204. New API DateTime Instant, Duration, And Period**
 - **205. New API DateTime Handling Dates Relatively**
+- **206. New API DateTime Making Time Adjustments with TimeAdjuster**
