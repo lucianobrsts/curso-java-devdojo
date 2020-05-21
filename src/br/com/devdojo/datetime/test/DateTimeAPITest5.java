@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-public class DateTimeAPI5Test {
+public class DateTimeAPITest5 {
     public static void main(String[] args) {
         LocalDate date = LocalDate.now();
         String s1 = date.format(DateTimeFormatter.BASIC_ISO_DATE);
