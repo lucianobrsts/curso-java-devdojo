@@ -287,3 +287,5 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **204. New API DateTime Instant, Duration, And Period**
 - **205. New API DateTime Handling Dates Relatively**
 - **206. New API DateTime Making Time Adjustments with TimeAdjuster**
+- **207. New API DateTime Formatting And Parse**
+- **208. New API DateTime Making Time Adjustments with TimeAdjuster**
