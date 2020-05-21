@@ -152,7 +152,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **96. Resource Bundles**
 - **97. Resource Bundles 2**
 
-### INPUT AND OUTPUT:
+> ### INPUT AND OUTPUT:
 
 - **98. File Class**
 - **99. FileWriter And FileReader**
@@ -192,21 +192,21 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **130. NavigableMap And TreeMap**
 - **131. Queue And PriorityQueue**
 
-### GENERICS:
+> ### GENERICS:
 
 - **132. Generic Types**
 - **133. Generic Wildcard Character**
 - **134. Generic Classes**
 - **135. Generic Methods**
 
-### INNER CLASSES:
+> ### INNER CLASSES:
 
 - **136. Inner Classes Or Nested Classes**
 - **137. Local Inner Class**
 - **138. Anonymous Classes**
 - **139. Static Inner Classes**
 
-### JAVA DATABASE CONNECTIVITY - JDBC:
+> ### JAVA DATABASE CONNECTIVITY - JDBC:
 
 - **140. Installing The MySQL Database**
 - **141. Creating The Database And Tables**
@@ -225,7 +225,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **154. JDBC CRUD**
 - **155. JDBC CRUD 2**
 
-### THREADS:
+> ### THREADS:
 
 - **156. Defining, Instantiating And Starting Threads**
 - **157. Thread States And Transitions With Sleep, Yield And Join**
@@ -244,18 +244,18 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **170. Concurrence, Executors : Scheduled Thread Pool**
 - **171. Concurrence, Callable Interface**
 
-### DESIGN PATTERNS:
+> ### DESIGN PATTERNS:
 
 - **172. Builder Pattern**
 - **173. Singleton Pattern**
 - **174. DAO Pattern**
 - **175. Factory Pattern**
 
-### MORE:
+> ### MORE:
 
 - **176. Parameterizing Behaviors (Predicate Interface)**
 
-### JAVA 8:
+> ### JAVA 8:
 
 - **177. Functional Programming and Lambdas**
 - **178. Functional Programming and Lambdas 2**
@@ -291,4 +291,4 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo.
 - **208. New API DateTime Working with Time Zones**
 - **209. Course Closing**
 
-### FIM:
+> ### FIM:
