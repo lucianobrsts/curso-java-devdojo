@@ -2,8 +2,8 @@
 
 # Curso Java DevDojo
 
-Lista de Exercícios com conteúdo relevante a todo curso Maratona Java DevDojo. Para mais informações acesse o curso no youtube, segue link abaixo.
-* [Acesse as aulas do DevDojo clicando aqui](https://www.youtube.com/watch?v=kkOSweUhGZM&list=PL62G310vn6nHrMr1tFLNOYP_c73m6nAzL)
+Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado no Jiraya DevDojo. Para mais informações acesse o curso no youtube, segue link abaixo.
+* [Acesse as aulas do DevDojo clicando aqui](https://www.youtube.com/watch?v=VKjFuX91G5Q&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW&index=1)
 
 ## Ementa do Curso
 
