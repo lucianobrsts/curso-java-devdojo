@@ -14,7 +14,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **03. Downloading JDK 15**
 - **04. Setting environment variables**
 - **05. Running The Build Process Manually**
-- **05. Download The Development Environment**
+- **06. Intellij community IDE download**
 
 > ### VARIABLES:
 
