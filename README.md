@@ -5,14 +5,16 @@
 Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado no Jiraya DevDojo. Para mais informações acesse o curso no youtube, segue link abaixo.
 * [Acesse as aulas do DevDojo clicando aqui](https://www.youtube.com/watch?v=VKjFuX91G5Q&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW&index=1)
 
-## Ementa do Curso
+## Ementa do Curso - Em processo
 
 > ### BASICS:
 
-- **01. How Java Works**
-- **02. How To Install Java On Windows**
-- **03. Running The Build Process Manually**
-- **04. Download The Development Environment**
+- **01. What to expect from the course**
+- **02. How Java Works**
+- **03. Downloading JDK 15**
+- **04. Setting environment variables**
+- **05. Running The Build Process Manually**
+- **05. Download The Development Environment**
 
 > ### VARIABLES:
 
