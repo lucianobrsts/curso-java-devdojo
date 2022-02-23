@@ -15,6 +15,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **04. Setting environment variables**
 - **05. Running The Build Process Manually**
 - **06. Intellij community IDE download**
+- **07. Getting to know the intellij community IDE**
+- **08. Organizing code into packages**
+- **09. Comments**
 
 > ### VARIABLES:
 
