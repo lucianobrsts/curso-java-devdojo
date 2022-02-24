@@ -22,7 +22,10 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 > ### VARIABLES:
 
 - **10. Primitive types - variable conventions**
-- **06. Primitive Types, Operators And Exercises**
+- **11. Primitive types - declaration and size in memory**
+- **12. Primitive types - casting**
+- **13. Primitive types - Strings**
+- **14. Primitive types - exercise**
 
 > ### OPERATORS:
 
