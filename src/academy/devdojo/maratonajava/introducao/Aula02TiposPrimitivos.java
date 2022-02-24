@@ -5,6 +5,17 @@ public class Aula02TiposPrimitivos {
         //int, doubler, float, char, byte, short, long, boolean
 
         int idade = 10;
-        System.out.println("A idade eh:" + idade + " anos");
+        long numeroGrande = 10000;
+        double salarioDouble = 2000;
+        float salarioFloat = 2500;
+        byte idadeByte = 10;
+        short idadeShort = 10;
+        boolean verdadeiro = true;
+        boolean falso = false;
+        char caractere = 87;
+
+        System.out.println("A idade é: " + idade + " anos");
+        System.out.println(falso);
+        System.out.println(caractere);
     }
 }
