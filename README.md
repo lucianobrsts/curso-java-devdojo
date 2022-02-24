@@ -21,7 +21,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 > ### VARIABLES:
 
-- **05. Primitive Types, Code Conventions And Comments**
+- **10. Primitive types - variable conventions**
 - **06. Primitive Types, Operators And Exercises**
 
 > ### OPERATORS:
