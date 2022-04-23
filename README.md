@@ -26,6 +26,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **12. Primitive types - casting**
 - **13. Primitive types - Strings**
 - **14. Primitive types - exercise**
+- **15. Primitive types - arithmetic operators**
 
 > ### OPERATORS:
 
