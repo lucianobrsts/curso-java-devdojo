@@ -26,13 +26,14 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **12. Primitive types - casting**
 - **13. Primitive types - Strings**
 - **14. Primitive types - exercise**
-- **15. Primitive types - arithmetic operators**
+- **15. 
 
 > ### OPERATORS:
 
-- **07. Rest Operator And Comparation Operator**
-- **08. Logical Operators**
-- **09. Assignment Operators**
+- **15. Arithmetic operators**
+- **16. Relational operators**
+- **17. Logical operators**
+- **18. Assignment Operators**
 
 > ### FLOW CONTROL:
 
