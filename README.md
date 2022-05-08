@@ -42,7 +42,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **22. Flow Control, Ternary Operator**
 - **23. Flow Control, Truth Table And Exercise**
 - **24. If Else Exercise Resolution**
-- **13. Switch And Exercise**
+- **25. Switch And Exercise**
 - **14. Switch Exercise Resolution**
 - **15. For, While And Do While**
 - **16. Repetition Structure Exercise**
