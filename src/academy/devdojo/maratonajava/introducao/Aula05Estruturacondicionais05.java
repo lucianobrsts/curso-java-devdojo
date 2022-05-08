@@ -4,7 +4,7 @@ public class Aula05Estruturacondicionais05 {
     public static void main(String[] args) {
         //Imprima o dia da semana, considerando 1 como domingo
 
-        byte dia = 12;
+        byte dia = 1;
 
         System.out.println("--- Usando if ---");
         if (dia == 1) {
@@ -22,11 +22,11 @@ public class Aula05Estruturacondicionais05 {
         } else if (dia == 7) {
             System.out.println("Sábado");
         } else {
-            System.out.println("Dia da semana inexistente!");
+            System.out.println("Opção Inválida!");
         }
 
 
-        System.out.println("--- Usando if ---");
+        System.out.println("--- Usando Switch ---");
         switch (dia) {
             case 1:
                 System.out.println("Domingo");
@@ -49,9 +49,23 @@ public class Aula05Estruturacondicionais05 {
             case 7:
                 System.out.println("Sábado");
             default:
-                System.out.println("Dia da semana inexistente!");
-
+                System.out.println("Opção Inválida!");
+                break;
         }
 
+        System.out.println("--- Case sexo ---");
+        char sexo = 'F';
+
+        switch (sexo) {
+            case 'M':
+                System.out.println("Masculino");
+                break;
+            case 'F':
+                System.out.println("Feminio");
+                break;
+            default:
+                System.out.println("Inválido");
+                break;
+        }
     }
 }
