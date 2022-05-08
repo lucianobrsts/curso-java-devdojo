@@ -44,15 +44,18 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **24. If Else Exercise Resolution**
 - **25. Switch And Exercise**
 - **26. Switch Exercise Resolution**
-- **15. For, While And Do While**
-- **16. Repetition Structure Exercise**
-- **17. Break And Continue Command**
+- **27. Repetition Structure For, While And Do While**
+- **28. Repetition Structure Exercise**
+- **29. Repetition Structure Break Command**
+- **30. Break Exercise**
+- **31. Repetition Structure Continue Command**
 
 > ### ARRAYS:
 
-- **18. Arrays 1**
-- **19. Arrays 2**
-- **20. Arrays 3 And Foreach**
+- **32. Arrays 1**
+- **33. Arrays 2**
+- **34. Arrays 3**
+- **35. Arrays 4 And Foreach**
 - **21. Multi-Dimensional Arrays**
 - **22. Multi-Dimensional Arrays 2**
 
