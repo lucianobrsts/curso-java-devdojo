@@ -39,7 +39,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 - **20. Flow Control If**
 - **21. Flow Control If, else**
-- **11. Flow Control, Ternary Operator And Truth Table**
+- **22. Flow Control, Ternary Operator And Truth Table**
 - **12. If Else Exercise Resolution**
 - **13. Switch And Exercise**
 - **14. Switch Exercise Resolution**
