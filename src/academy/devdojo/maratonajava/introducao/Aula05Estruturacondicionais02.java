@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.introducao;
 public class Aula05Estruturacondicionais02 {
     public static void main(String[] args) {
         //idade < 15 categoria infantil
-        //idade >= 15 &&idade <  18 categoria Juvenil
+        //idade >= 15 && idade <  18 categoria Juvenil
         //idade >=18 categoria adulto
         int idade = 12;
         String categoria;
@@ -15,6 +15,6 @@ public class Aula05Estruturacondicionais02 {
         } else {
             categoria = "Categoria Adulto";
         }
+        System.out.println(categoria);
     }
-
 }
