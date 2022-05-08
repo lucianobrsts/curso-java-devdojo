@@ -19,7 +19,7 @@ public class Aula05EstruturasCondicionais01 {
 
         boolean c = false;
         if(c == true) {
-            System.out.println("Dentro de algo quenunca deveser feito");
+            System.out.println("Dentro de algo que nunca deveser feito");
         }
 
     System.out.println("fora do if");
