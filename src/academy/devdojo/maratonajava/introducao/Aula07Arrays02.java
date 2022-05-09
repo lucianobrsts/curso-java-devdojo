@@ -7,10 +7,13 @@ public class Aula07Arrays02 {
         //boolean false
         //Objetos como String null
 
-        String[] nomes = new String[3];
-//        idades[0] = 21;
-//        idades[1] = 15;
-//        idades[2] = 30;
+        int tamanhoArray = 4;
+
+        String[] nomes = new String[tamanhoArray];
+        nomes[0] = "Goku";
+        nomes[1] = "Kurosaki";
+        nomes[2] = "Luffy";
+        nomes[3] = "Hinata";
 
         for (int i = 0; i < nomes.length; i++) {
             System.out.println(nomes[i]);
