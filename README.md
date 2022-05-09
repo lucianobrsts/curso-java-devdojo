@@ -56,8 +56,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **33. Arrays 2**
 - **34. Arrays 3**
 - **35. Arrays 4 And Foreach**
-- **21. Multi-Dimensional Arrays**
-- **22. Multi-Dimensional Arrays 2**
+- **36. Multi-Dimensional Arrays**
+- **37. Multi-Dimensional Arrays 2**
+- **38. Multi-Dimensional Arrays 3 inicialization**
 
 > ### CLASSES AND OBJECTS:
 
