@@ -63,7 +63,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 > ### OBJECT ORIENTATION:
 
 - **39. Introduction to Classes 1**
-- **39. Introduction to Packages**
+- **40. Introduction to Classes 2**
 - **24. Classes**
 - **25. Classes 2**
 - **26. Classes 3 And Exercise Resolution**
