@@ -60,9 +60,10 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **37. Multi-Dimensional Arrays 2**
 - **38. Multi-Dimensional Arrays 3 inicialization**
 
-> ### CLASSES AND OBJECTS:
+> ### OBJECT ORIENTATION:
 
-- **23. Introduction to Packages**
+- **39. Introduction to Classes 1**
+- **39. Introduction to Packages**
 - **24. Classes**
 - **25. Classes 2**
 - **26. Classes 3 And Exercise Resolution**
