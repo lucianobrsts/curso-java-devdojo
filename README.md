@@ -64,7 +64,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 - **39. Introduction to Classes 1**
 - **40. Introduction to Classes 2**
-- **24. Classes**
+- **41. Cohesion**
 - **25. Classes 2**
 - **26. Classes 3 And Exercise Resolution**
 - **27. Methods**
