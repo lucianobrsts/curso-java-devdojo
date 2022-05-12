@@ -67,8 +67,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **41. Cohesion**
 - **42. Exercise about classes**
 - **43. Object reference**
-- **25. Classes 2**
-- **27. Methods**
+- **44. Methods**
 - **28. Methods with Parameters**
 - **29. Methods Return**
 - **30. Methods Return 2**
