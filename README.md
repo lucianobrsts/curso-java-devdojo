@@ -69,7 +69,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **43. Object reference**
 - **44. Methods**
 - **45. Methods with Parameters**
-- **29. Methods Return**
+- **46. Methods Return**
 - **30. Methods Return 2**
 - **31. Passing Reference Type (Objects) As Parameter**
 - **32. Passing Reference Type (Objects) As Parameter And This**
