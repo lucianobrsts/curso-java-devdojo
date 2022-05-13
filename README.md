@@ -72,7 +72,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **46. Methods Return**
 - **47. Methods Return 2**
 - **48. Methods with Parameters primitive types**
-- **49. Methods with Parameters reference**
+- **49. Methods with Parameters reference 1**
+- **50. Methods with Parameters reference 2**
 - **31. Passing Reference Type (Objects) As Parameter**
 - **32. Passing Reference Type (Objects) As Parameter And This**
 - **33. Passing Parameter Varargs**
