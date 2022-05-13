@@ -74,9 +74,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **48. Methods with Parameters primitive types**
 - **49. Methods with Parameters reference 1**
 - **50. Methods with Parameters reference 2**
-- **31. Passing Reference Type (Objects) As Parameter**
-- **32. Passing Reference Type (Objects) As Parameter And This**
-- **33. Passing Parameter Varargs**
+- **51. Methods with Parameters reference this**
+- **52. Passing Parameter Varargs**
 - **34. UML**
 - **35. Methods Exercises**
 
