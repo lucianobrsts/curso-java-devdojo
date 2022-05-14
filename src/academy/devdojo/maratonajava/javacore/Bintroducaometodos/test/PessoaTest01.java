@@ -6,7 +6,7 @@ public class PessoaTest01 {
     public static void main(String[] args) {
         Pessoa pessoa = new Pessoa();
         pessoa.nome = "Jiraya";
-        pessoa.idade = 70;
+        pessoa.idade = -1;
         pessoa.imprime();
     }
 }

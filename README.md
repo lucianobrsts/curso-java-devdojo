@@ -77,11 +77,10 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **51. Methods with Parameters reference this**
 - **52. Passing Parameter Varargs**
 - **53. Methods Exercises**
-- **54. UML**
 
 > ### ENCAPSULATION:
 
-- **36. Private Modifier, Getters And Setters**
+- **54. Private Modifier, Getters And Setters**
 - **37. Private Modifier, Getters Setters And Is Methods**
 
 > ### OVERLOADING METHODS:
