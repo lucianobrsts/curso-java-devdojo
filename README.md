@@ -77,7 +77,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **51. Methods with Parameters reference this**
 - **52. Passing Parameter Varargs**
 - **53. Methods Exercises**
-- **34. UML**
+- **54. UML**
 
 > ### ENCAPSULATION:
 
