@@ -81,6 +81,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 > ### ENCAPSULATION:
 
 - **54. Private Modifier, Getters And Setters**
+- **55. Private Modifier, Getters And Setters 2**
 - **37. Private Modifier, Getters Setters And Is Methods**
 
 > ### OVERLOADING METHODS:
