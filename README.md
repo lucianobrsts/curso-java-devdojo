@@ -83,11 +83,10 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **54. Private Modifier, Getters And Setters**
 - **55. Private Modifier, Getters And Setters 2**
 - **56. Private Modifier, Getters And Setters 3**
-- **37. Private Modifier, Getters Setters And Is Methods**
 
 > ### OVERLOADING METHODS:
 
-- **38. Overloading**
+- **57. Method overloading**
 
 > ### CONSTRUCTORS:
 
