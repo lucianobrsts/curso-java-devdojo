@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Csobrecargametodos.teste;
+package academy.devdojo.maratonajava.javacore.Csobrecargametodos.test;
 
 import academy.devdojo.maratonajava.javacore.Csobrecargametodos.dominio.Anime;
 
