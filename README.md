@@ -92,11 +92,11 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 - **58. Declaring Constructors And Overloading**
 - **59. Declaring Constructors And Overloading 2**
-- **40. Initialization Block**
+- **60. Initialization Block**
 
 > ### STATIC MODIFIER:
 
-- **42. Static Attributes**
+- **61. Static modifier**
 - **43. Static Methods**
 - **44. Static Initialization Block**
 
