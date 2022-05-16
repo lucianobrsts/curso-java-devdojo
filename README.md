@@ -97,8 +97,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 > ### STATIC MODIFIER:
 
 - **61. Static modifier**
-- **43. Static Methods**
-- **44. Static Initialization Block**
+- **62. Static Methods**
+- **63. Static Initialization Block**
 
 > ### ASSOCIATION AND INHERITANCE:
 
