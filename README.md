@@ -102,11 +102,11 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 > ### ASSOCIATION AND INHERITANCE:
 
-- **45. UML And Classes Association**
 - **46. Association Exercise**
 - **47. Association Exercise 2**
 - **48. Association Exercise 3**
 - **49. Association Exercise 4**
+- **45. UML And Classes Association**
 - **50. Inheritance**
 - **51. Inheritance And Reference Super**
 - **52. Inheritance And Protected Modifier**
