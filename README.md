@@ -102,7 +102,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 > ### ASSOCIATION AND INHERITANCE:
 
-- **46. Association Exercise**
+- **64. Arrays with objects**
 - **47. Association Exercise 2**
 - **48. Association Exercise 3**
 - **49. Association Exercise 4**
