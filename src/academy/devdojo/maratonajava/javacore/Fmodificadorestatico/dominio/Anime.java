@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Fmodificadorestatico.domain;
+package academy.devdojo.maratonajava.javacore.Fmodificadorestatico.dominio;
 
 public class Anime {
     private String nome;
