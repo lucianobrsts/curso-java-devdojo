@@ -4,6 +4,10 @@ public class Jogador {
 
     private String nome;
 
+    public void imprime() {
+        System.out.println(this.nome);
+    }
+
     public Jogador(String nome) {
         this.nome = nome;
     }
