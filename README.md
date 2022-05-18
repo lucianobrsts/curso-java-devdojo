@@ -103,6 +103,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 > ### ASSOCIATION AND INHERITANCE:
 
 - **64. Arrays with objects**
+- **65. One-to-many unidirectional association**
 - **47. Association Exercise 2**
 - **48. Association Exercise 3**
 - **49. Association Exercise 4**
