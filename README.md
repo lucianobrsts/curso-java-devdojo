@@ -106,8 +106,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **65. One-to-many unidirectional association**
 - **66. One-way many-to-one association**
 - **67. Bidirectional association**
-- **68. Reading data from the console 2**
-- **48. Association Exercise 3**
+- **68. Reading data from the console **
+- **69. Reading data from the console 2**
+- **70. Association Exercise**
 - **49. Association Exercise 4**
 - **45. UML And Classes Association**
 - **50. Inheritance**
