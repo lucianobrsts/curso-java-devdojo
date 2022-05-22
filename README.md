@@ -112,7 +112,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **71. Inheritance**
 - **72. Inheritance And Reference Super**
 - **73. Inheritance And Protected Modifier**
-- **53. Constructors X Inheritance**
+- **74. Constructors X Inheritance**
 - **54. Inheritance And Initialization Sequence**
 - **55. Overriding Methods**
 - **56. Final Modifier**
