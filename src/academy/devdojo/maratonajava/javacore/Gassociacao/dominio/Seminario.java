@@ -2,14 +2,10 @@ package academy.devdojo.maratonajava.javacore.Gassociacao.dominio;
 
 public class Seminario {
     private String titulo;
-    private Aluno[] alunos;
     private Local local;
+    private Aluno[] alunos;
 
-    public Seminario(String titulo) {
-        this.titulo = titulo;
-    }
-
-    public Seminario(String titulo, Aluno[] alunos) {
+    public Seminario(String titulo, Local local) {
         this.titulo = titulo;
         this.alunos = alunos;
     }
