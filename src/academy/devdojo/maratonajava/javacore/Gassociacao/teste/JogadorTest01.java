@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Gassociacao.test;
+package academy.devdojo.maratonajava.javacore.Gassociacao.teste;
 
 import academy.devdojo.maratonajava.javacore.Gassociacao.dominio.Jogador;
 

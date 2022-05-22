@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Bintroducaometodos.test;
+package academy.devdojo.maratonajava.javacore.Bintroducaometodos.teste;
 
 import academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio.Calculadora;
 

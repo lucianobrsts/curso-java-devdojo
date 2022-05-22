@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Fmodificadorestatico.test;
+package academy.devdojo.maratonajava.javacore.Fmodificadorestatico.teste;
 
 import academy.devdojo.maratonajava.javacore.Fmodificadorestatico.dominio.Anime;
 
