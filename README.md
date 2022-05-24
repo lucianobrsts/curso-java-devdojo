@@ -116,6 +116,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **75. Inheritance And Initialization Sequence**
 - **76. ToString method override**
 - **77. Final Modifier - Primitive type**
+- **78. Final Modifier - Primitive type 2**
+- **79. Final Modifier - Classes and methods**
 
 > ### ENUMS:
 
