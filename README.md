@@ -121,7 +121,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 > ### ENUMS:
 
-- **57. Enums**
+- **80. Enums**
 - **58. Enums 2**
 - **59. Enums 3**
 
