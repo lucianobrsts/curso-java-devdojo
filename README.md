@@ -122,8 +122,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 > ### ENUMS:
 
 - **80. Enums**
-- **58. Enums Constructors and attributes**
-- **59. Enums 3**
+- **81. Enums Constructors and attributes**
+- **82. method override**
+- **83. Search by attributes**
 
 > ### ABSTRACT CLASSES AND INTERFACES:
 
