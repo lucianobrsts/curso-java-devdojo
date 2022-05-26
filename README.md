@@ -130,7 +130,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 - **84. Abstract Classes**
 - **85. Abstract Methods**
-- **85. Abstract Methods**
+- **86. Abstract methods rules**
 - **62. Interfaces In Java**
 - **63. Interfaces In Java 2**
 
