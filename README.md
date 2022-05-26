@@ -106,7 +106,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **65. One-to-many unidirectional association**
 - **66. One-way many-to-one association**
 - **67. Bidirectional association**
-- **68. Reading data from the console **
+- **68. Reading data from the console**
 - **69. Reading data from the console 2**
 - **70. Association Exercise**
 - **71. Inheritance**
@@ -131,8 +131,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **84. Abstract Classes**
 - **85. Abstract Methods**
 - **86. Abstract methods rules**
-- **62. Interfaces In Java**
-- **63. Interfaces In Java 2**
+- **87. Interfaces In Java**
+- **88. Implementing multiple interfaces**
+- **89. Static attributes and methods**
 
 > ### POLYMORPHISM:
 
