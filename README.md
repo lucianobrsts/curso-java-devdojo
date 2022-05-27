@@ -137,9 +137,11 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 > ### POLYMORPHISM:
 
-- **64. Polymorphism And Polymorphic Parameters**
-- **65. Polymorphism, Operator Instanceof And Cast of Objects**
-- **66. Polymorphism 3**
+- **90. Polymorphism**
+- **91. Polymorphism operation**
+- **92. Polymorphism And Polymorphic Parameters**
+- **93. Polymorphism, Operator Instanceof And Cast of Objects**
+- **94. Polymorphism interface oriented programming**
 
 > ### ERROR HANDLING:
 
