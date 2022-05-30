@@ -148,7 +148,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **95. Exceptions And Class Error**
 - **96. Class Exception And Runtime Exception**
 - **97. Checked Exceptions And Try/Catch**
-- **70. Instruction Throw And Throws**
+- **98. Instruction Throw And Throws**
 - **71. Try/Catch/Finally**
 - **72. Handling Multiple Exceptions**
 - **73. Handling Multiple Exceptions With Multi-Catch**
