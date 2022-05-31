@@ -145,17 +145,17 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 > ### ERROR HANDLING:
 
-- **95. Exceptions And Class Error**
-- **96. Class Exception And Runtime Exception**
-- **90. Checked Exceptions And Try/Catch**
-- **90. Instruction Throw And Throws**
-- **71. Try/Catch/Finally**
-- **72. Handling Multiple Exceptions**
-- **73. Handling Multiple Exceptions With Multi-Catch**
-- **74. Try With Resources**
-- **75. Custom Exceptions**
-- **76. Exceptions And Overriding Rules**
-- **77. Asserts**
+- **95. Errors**
+- **96. Runtime Exception**
+- **97. Exceptions**
+- **98. Throwing unchecked exception**
+- **99. Throwing checked exception**
+- **100. Finally block**
+- **101. Catching multiple exceptions**
+- **102. Multi-catch in line**
+- **103. Try with resources**
+- **104. custom exception**
+- **105. Exception and overwrite rules**
 
 > ### UTILITY CLASSES:
 
