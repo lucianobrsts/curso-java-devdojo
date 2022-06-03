@@ -1,20 +1,34 @@
 package academy.devdojo.maratonajava.javacore.Oexception.runtime.teste;
 
+import java.io.FileNotFoundException;
+import java.sql.SQLException;
+
 public class RuntimeExceptionTest04 {
     public static void main(String[] args) {
-        abreConexao();
+        try {
+            throw new RuntimeException();
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Dentro do ArrayIndexOutOfBoundsException");
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println("Dentro do IndexOutOfBoundsException");
+        } catch (IllegalArgumentException e) {
+            System.out.println("Dentro do IllegalArgumentException");
+        } catch (ArithmeticException e) {
+            System.out.println("Dentro do ArithmeticException");
+        } catch (RuntimeException e) {
+            System.out.println("Dentro do RuntimeException");
+        }
+
+            try {
+                talvezLanceException();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
     }
 
-    private static String abreConexao() {
-        try {
-            System.out.println("Abrindo arquivo");
-            System.out.println("Escrevendo dados no arquivo");
-            return "Conexão aberta";
-        }catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            System.out.println("Fechando recurso liberado pelo SO");
-        }
-        return null;
+    private static void talvezLanceException() throws SQLException, FileNotFoundException {
+
     }
 }
