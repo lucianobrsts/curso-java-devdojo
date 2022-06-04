@@ -159,7 +159,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 > ### UTILITY CLASSES:
 
-- **78. Wrapper Classes**
+- **106. Wrapper Classes**
 - **79. AutoBoxing And Unboxing**
 - **80. String**
 - **81. Comparing String**
