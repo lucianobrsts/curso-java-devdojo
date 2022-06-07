@@ -161,9 +161,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 - **106. Wrapper Classes**
 - **107. AutoBoxing And Unboxing**
-- **80. String**
-- **81. Comparing String**
-- **82. StringBuffer And StringBuilder**
+- **108. String**
+- **109. Comparing String**
+- **110. StringBuffer And StringBuilder**
 - **83. StringBuilder**
 - **84. Dates With Date And Calendar**
 - **85. Formatting And Coverting Date**
