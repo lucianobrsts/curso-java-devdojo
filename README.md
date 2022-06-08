@@ -162,6 +162,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **106. Wrapper Classes**
 - **107. AutoBoxing And Unboxing**
 - **108. String**
+- **109. String 02**
+- **110. String performance**
 - **109. Comparing String**
 - **110. StringBuffer And StringBuilder**
 - **83. StringBuilder**
