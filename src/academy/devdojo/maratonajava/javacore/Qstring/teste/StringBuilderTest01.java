@@ -6,7 +6,10 @@ public class StringBuilderTest01 {
         nome.concat(" DevDojo");
         System.out.println(nome);
         StringBuilder sb = new StringBuilder("William Suane");
-        sb.append(" DevDojo");
+        sb.append(" DevDojo").append(" Academy");
+        sb.reverse();
+        sb.reverse();
+        sb.delete(0, 3);
         System.out.println(sb);
     }
 }
