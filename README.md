@@ -169,7 +169,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **113. Dates With Calendar**
 - **114. DateFormat**
 - **115. Internationalization With Locale Classes**
-- **87. Formatting Numbers With Java.Text.NumberFormat**
+- **116. Formatting Numbers With Java.Text.NumberFormat**
 - **88. Formatting Dates With SimpleDateFormat**
 - **89. Regular Expressions 1**
 - **90. Regular Expressions 2**
