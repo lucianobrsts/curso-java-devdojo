@@ -173,7 +173,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **117. Formatting coins With Java.Text.NumberFormat**
 - **118. Formatting Dates With SimpleDateFormat**
 - **119. LocalDate**
-- **89. Regular Expressions 1**
+- **120. LocalTime**
 - **90. Regular Expressions 2**
 - **91. Regular Expressions 3**
 - **92. Regular Expressions 4**
