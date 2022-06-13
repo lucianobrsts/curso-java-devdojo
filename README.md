@@ -174,6 +174,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **118. Formatting Dates With SimpleDateFormat**
 - **119. LocalDate**
 - **120. LocalTime**
+- **121. LocalDateTime**
+- **122. LocalDateTime**
 - **90. Regular Expressions 2**
 - **91. Regular Expressions 3**
 - **92. Regular Expressions 4**
