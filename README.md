@@ -175,12 +175,12 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **119. LocalDate**
 - **120. LocalTime**
 - **121. LocalDateTime**
-- **122. LocalDateTime**
-- **90. Regular Expressions 2**
-- **91. Regular Expressions 3**
-- **92. Regular Expressions 4**
-- **93. Regular Expressions 5**
-- **94. Regular Expressions 6**
+- **122. Instant**
+- **123. Duration**
+- **124. Period**
+- **125. ChronoUnit**
+- **127. TemporalAdjuster**
+- **128. Regular Expressions 6**
 - **95. Tokens and Delimiters With String And Scanner**
 - **96. Resource Bundles**
 - **97. Resource Bundles 2**
