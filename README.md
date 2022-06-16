@@ -182,8 +182,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **126. TemporalAdjusters**
 - **127. TemporalAdjuster**
 - **128. ZoneDateTime, zoneId, OffsetDateTime**
-- **95. Tokens and Delimiters With String And Scanner**
-- **96. Resource Bundles**
+- **129. DateTimeFormatter**
+- **130. Resource Bundles**
 - **97. Resource Bundles 2**
 
 > ### INPUT AND OUTPUT:
