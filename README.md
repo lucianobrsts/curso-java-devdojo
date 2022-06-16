@@ -184,7 +184,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **128. ZoneDateTime, zoneId, OffsetDateTime**
 - **129. DateTimeFormatter**
 - **130. Resource Bundles**
-- **97. Resource Bundles 2**
+- **131. Regex - Pattern e Matcher**
 
 > ### INPUT AND OUTPUT:
 
