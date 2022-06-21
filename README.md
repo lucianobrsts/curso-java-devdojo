@@ -185,6 +185,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **129. DateTimeFormatter**
 - **130. Resource Bundles**
 - **131. Regex - Pattern e Matcher**
+- **132. Regex - Pattern e Matcher - Meta caracteres**
 
 > ### INPUT AND OUTPUT:
 
