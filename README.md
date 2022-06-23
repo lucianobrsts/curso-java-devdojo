@@ -186,7 +186,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **130. Resource Bundles**
 - **131. Regex - Pattern e Matcher**
 - **132. Regex 2 - Pattern e Matcher - Meta caracteres**
-- **132. Regex 3 - Pattern e Matcher - Range**
+- **133. Regex 3 - Pattern e Matcher - Range**
+- **134. Regex 4 - Pattern e Matcher - Quantifiers**
 
 > ### INPUT AND OUTPUT:
 
