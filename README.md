@@ -184,12 +184,13 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **128. ZoneDateTime, zoneId, OffsetDateTime**
 - **129. DateTimeFormatter**
 - **130. Resource Bundles**
-- **131. Regex - Pattern e Matcher**
-- **132. Regex 2 - Pattern e Matcher - Meta caracteres**
-- **133. Regex 3 - Pattern e Matcher - Range**
-- **134. Regex 4 - Pattern e Matcher - Quantifiers**
-- **135. Regex 5 - Pattern e Matcher - Quantifiers 2**
-- **135. Regex 6 - Pattern e Matcher - Anchor**
+- **131. Regex - Pattern and Matcher**
+- **132. Regex 2 - Pattern and Matcher - Meta caracteres**
+- **133. Regex 3 - Pattern and Matcher - Range**
+- **134. Regex 4 - Pattern and Matcher - Quantifiers**
+- **135. Regex 5 - Pattern and Matcher - Quantifiers 2**
+- **136. Regex 6 - Pattern and Matcher - Anchor**
+- **137. Scanner - Tokens and delimiters**
 
 > ### INPUT AND OUTPUT:
 
