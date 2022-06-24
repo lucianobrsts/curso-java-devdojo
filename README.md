@@ -191,6 +191,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **135. Regex 5 - Pattern and Matcher - Quantifiers 2**
 - **136. Regex 6 - Pattern and Matcher - Anchor**
 - **137. Scanner - Tokens and delimiters**
+- **138. File**
 
 > ### INPUT AND OUTPUT:
 
