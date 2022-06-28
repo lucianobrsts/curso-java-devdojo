@@ -192,6 +192,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **136. Regex 6 - Pattern and Matcher - Anchor**
 - **137. Scanner - Tokens and delimiters**
 - **138. File**
+- **139. FileWriter**
 
 > ### INPUT AND OUTPUT:
 
