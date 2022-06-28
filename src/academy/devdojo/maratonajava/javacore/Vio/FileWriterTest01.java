@@ -14,7 +14,7 @@ public class FileWriterTest01 {
 		File file = new File("D:\\Estudo\\Repositorios\\curso-java-devdojo\\arquivo\\file.txt");
 		try (FileWriter fw = new FileWriter(file, true)){
 			file.createNewFile();
-			fw.write("O DevDojo é lindo, é o melher curso do Brasil...\n continuando a cantoria na próxima linha.\n");
+			fw.write("O DevDojo é lindo, é o melhor curso do Brasil...\n continuando a cantoria na próxima linha.\n");
 			fw.flush();
 		} catch (IOException e) {
 			e.printStackTrace();
