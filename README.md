@@ -193,6 +193,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **137. Scanner - Tokens and delimiters**
 - **138. File**
 - **139. FileWriter**
+- **140. FileReader**
+- **141. BufferedWriter**
+- **142. BufferedReader**
 
 > ### INPUT AND OUTPUT:
 
