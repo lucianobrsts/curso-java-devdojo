@@ -198,6 +198,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **142. BufferedReader**
 - **143. Files for directories**
 - **144. Path, Paths And Files**
+- **145. Path, Paths And Files 2**
 
 > ### INPUT AND OUTPUT:
 
