@@ -197,6 +197,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **141. BufferedWriter**
 - **142. BufferedReader**
 - **143. Files for directories**
+- **144. Path, Paths And Files**
 
 > ### INPUT AND OUTPUT:
 
@@ -204,9 +205,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **99. FileWriter And FileReader**
 - **100. Optimizing Writing and Reading With Buffers**
 - **101. File Class For Directory**
-- **102. Console Class**
 - **103. Introduction New Classes: Path, Paths And Files**
-- **104. Basic Use Classes: Path, Paths And Files**
+- **104. Basic Use Classes: 
 - **105. Normalizing Paths**
 - **106. Solving Paths**
 - **107. Relativize Paths**
