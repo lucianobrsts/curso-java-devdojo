@@ -199,6 +199,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **143. Files for directories**
 - **144. Path, Paths And Files**
 - **145. Path, Paths And Files 2**
+- **146. Normalizing Paths**
 
 > ### INPUT AND OUTPUT:
 
@@ -208,7 +209,6 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **101. File Class For Directory**
 - **103. Introduction New Classes: Path, Paths And Files**
 - **104. Basic Use Classes: 
-- **105. Normalizing Paths**
 - **106. Solving Paths**
 - **107. Relativize Paths**
 - **108. BasicFileAttributes And BasicFileAttributeView**
