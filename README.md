@@ -191,12 +191,12 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **135. Regex 5 - Pattern and Matcher - Quantifiers 2**
 - **136. Regex 6 - Pattern and Matcher - Anchor**
 - **137. Scanner - Tokens and delimiters**
-- **138. File**
+- **138. File Class**
 - **139. FileWriter**
 - **140. FileReader**
 - **141. BufferedWriter**
 - **142. BufferedReader**
-- **143. Files for directories**
+- **143.  File Class For Directory**
 - **144. Path, Paths And Files**
 - **145. Path, Paths And Files 2**
 - **146. Normalizing Paths**
@@ -204,7 +204,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 > ### INPUT AND OUTPUT:
 
-- **98. File Class**
+- **98. **
 - **99. FileWriter And FileReader**
 - **100. Optimizing Writing and Reading With Buffers**
 - **101. File Class For Directory**
