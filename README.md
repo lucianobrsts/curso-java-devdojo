@@ -201,6 +201,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **145. Path, Paths And Files 2**
 - **146. Normalizing Paths**
 - **147. Solving Paths**
+- **148. Relativize Paths**
 
 > ### COLLECTIONS:
 
