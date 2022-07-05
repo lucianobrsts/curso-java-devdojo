@@ -202,25 +202,6 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **146. Normalizing Paths**
 - **147. Solving Paths**
 
-> ### INPUT AND OUTPUT:
-
-- **98. **
-- **99. FileWriter And FileReader**
-- **100. Optimizing Writing and Reading With Buffers**
-- **101. File Class For Directory**
-- **103. Introduction New Classes: Path, Paths And Files**
-- **104. Basic Use Classes: 
-- 
-- **107. Relativize Paths**
-- **108. BasicFileAttributes And BasicFileAttributeView**
-- **109. DosFileAttributes And DosFileAttributeView**
-- **110. PosixFileAttribute And PosixFileAttributeView**
-- **111. DirectoryStream And SimpleFileVisitor**
-- **112. PathMatcher**
-- **113. InputStream And OutPutStream**
-- **114. Ziping Files With Java**
-- **115. Serialization**
-
 > ### COLLECTIONS:
 
 - **116. Method Equals()**
