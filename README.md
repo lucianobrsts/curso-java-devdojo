@@ -203,7 +203,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **147. Solving Paths**
 - **148. Relativize Paths**
 - **149. BasicFilesAttributes**
-- **149. BasicFilesAttributes 2**
+- **150. BasicFilesAttributes 2**
+- **151. DosFileAttribute**
 
 > ### COLLECTIONS:
 
