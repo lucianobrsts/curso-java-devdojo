@@ -206,6 +206,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **150. BasicFilesAttributes 2**
 - **151. DosFileAttribute**
 - **152. PoxisFileAttribute**
+- **153. DirectoryStream**
 
 > ### COLLECTIONS:
 
