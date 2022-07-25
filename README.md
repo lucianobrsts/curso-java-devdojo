@@ -218,6 +218,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **162. Method Equals() 2**
 - **163. Methods hashcode()**
 - **164. Methods hashcode() 2**
+- **165. Big-O Complexity**
 - **118. Collections FrameWork Introduction**
 - **119. Interface Java.Util.List**
 - **120. Interface Java.Util.List 2**
