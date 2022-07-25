@@ -208,7 +208,9 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **152. PoxisFileAttribute**
 - **153. DirectoryStream**
 - **154. SimpleFileVisitor**
-- **154. SimpleFileVisitor 2**
+- **155. SimpleFileVisitor 2**
+- **156. PathMatcher**
+- **157. PathMatcher**
 
 > ### COLLECTIONS:
 
