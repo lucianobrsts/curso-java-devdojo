@@ -41,7 +41,7 @@ public class Smartphone {
 
 	@Override
 	public String toString() {
-		return super.toString();
+		return "Smartphone [serialNumber=" + serialNumber + ", marca=" + marca + "]";
 	}
 
 	public String getSerialNumber() {
