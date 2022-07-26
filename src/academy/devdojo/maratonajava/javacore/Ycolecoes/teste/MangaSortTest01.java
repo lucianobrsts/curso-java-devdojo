@@ -2,9 +2,19 @@ package academy.devdojo.maratonajava.javacore.Ycolecoes.teste;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import academy.devdojo.maratonajava.javacore.Ycolecoes.dominio.Manga;
+
+class MangaByIdComparator implements Comparator<Manga> {
+
+	@Override
+	public int compare(Manga manga1, Manga manga2) {
+		return manga1.getId().compareTo(manga2.getId());
+	}
+
+}
 
 public class MangaSortTest01 {
 	public static void main(String[] args) {
@@ -18,10 +28,18 @@ public class MangaSortTest01 {
 		for (Manga manga : mangas) {
 			System.out.println(manga);
 		}
-		
+
 		System.out.println("-----------------------------------------------");
 
 		Collections.sort(mangas);
+		for (Manga manga : mangas) {
+			System.out.println(manga);
+		}
+
+		System.out.println("-----------------------------------------------");
+
+//		Collections.sort(mangas, new MangaByIdComparator());
+		mangas.sort(new MangaByIdComparator());
 		for (Manga manga : mangas) {
 			System.out.println(manga);
 		}
