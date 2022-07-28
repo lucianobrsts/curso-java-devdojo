@@ -220,10 +220,12 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **164. Methods hashcode() 2**
 - **165. Big-O Complexity**
 - **166. Interface Java.Util.List**
-- **120. Interface Java.Util.List 2**
-- **121. Sorting Lists With Comparable**
-- **122. How To Order Arrays And Lists With Comparator**
-- **123. Binary Search in Lists And Arrays**
+- **167. Interface Java.Util.List 2**
+- **168. Interface Java.Util.List 3**
+- **169. Sorting**
+- **170. Sorting Lists With Comparable**
+- **171. How To Order Arrays And Lists With Comparator**
+- **172. Binary Search in Lists And Arrays**
 - **124. Converting Arrays To List And List To Arrays**
 - **125. Removing Elements From The List With Iterator**
 - **126. Collections Set, HashSet And LinkedHashSet**
