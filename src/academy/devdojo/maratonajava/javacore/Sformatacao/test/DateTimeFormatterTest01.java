@@ -1,7 +1,6 @@
 package academy.devdojo.maratonajava.javacore.Sformatacao.test;
 
 import academy.devdojo.maratonajava.javacore.Gassociacao.dominio.Local;
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
