@@ -227,8 +227,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **171. How To Order Arrays And Lists With Comparator**
 - **172. Binary Search in Lists And Arrays**
 - **173. Converting Arrays To List And List To Arrays**
-- **125. Removing Elements From The List With Iterator**
-- **126. Collections Set, HashSet And LinkedHashSet**
+- **174. Removing Elements From The List With Iterator**
+- **175. Collections Set, HashSet And LinkedHashSet**
 - **127. Collections NavigableSet And TreeSet**
 - **128. Collections Map, HashMap And LinkedHashMap**
 - **129. Collections Map, HashMap And LinkedHashMap 2**
