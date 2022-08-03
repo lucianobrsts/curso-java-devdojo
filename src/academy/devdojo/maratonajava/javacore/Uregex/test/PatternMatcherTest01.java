@@ -10,7 +10,7 @@ public class PatternMatcherTest01 {
         String texto2 = "abababa";
         Pattern pattern =  Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto2);
-        System.out.println("texto:  " + texto2);
+        System.out.println("texto:   " + texto2);
         System.out.println("indice: 123456789" );
         System.out.println("regex " + regex);
         System.out.println("Posicoes encontradas");
