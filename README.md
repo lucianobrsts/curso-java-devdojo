@@ -229,7 +229,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **173. Converting Arrays To List And List To Arrays**
 - **174. Iterator**
 - **175. Collections Set, HashSet And LinkedHashSet**
-- **127. Collections NavigableSet And TreeSet**
+- **176. Collections NavigableSet And TreeSet**
 - **128. Collections Map, HashMap And LinkedHashMap**
 - **129. Collections Map, HashMap And LinkedHashMap 2**
 - **130. NavigableMap And TreeMap**

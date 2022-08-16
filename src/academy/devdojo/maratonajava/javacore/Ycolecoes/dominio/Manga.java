@@ -23,24 +23,16 @@ public class Manga implements Comparable<Manga> {
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(id, nome, preco);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Manga manga = (Manga) o;
+        return Objects.equals(id, manga.id) && Objects.equals(nome, manga.nome);
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null) {
-            return false;
-        }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        Manga other = (Manga) obj;
-        return Objects.equals(id, other.id) && Objects.equals(nome, other.nome)
-                && Double.doubleToLongBits(preco) == Double.doubleToLongBits(other.preco);
+    public int hashCode() {
+        return Objects.hash(id, nome);
     }
 
     @Override
