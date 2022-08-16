@@ -10,8 +10,8 @@ public class Manga implements Comparable<Manga> {
     private int quantidade;
 
     public Manga(Long id, String nome, double preco) {
-        Objects.requireNonNull(id, "Id n�o pode ser nulo.");
-        Objects.requireNonNull(nome, "Nome n�o pode ser nulo.");
+        Objects.requireNonNull(id, "Id não pode ser nulo.");
+        Objects.requireNonNull(nome, "Nome não pode ser nulo.");
         this.id = id;
         this.nome = nome;
         this.preco = preco;
