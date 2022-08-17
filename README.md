@@ -232,7 +232,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **176. Collections NavigableSet And TreeSet**
 - **177. Collections NavigableSet And TreeSet**
 - **178. Collections Map, HashMap And LinkedHashMap**
-- **129. Collections Map, HashMap And LinkedHashMap 2**
+- **179. Collections Map, HashMap And LinkedHashMap 2**
 - **130. NavigableMap And TreeMap**
 - **131. Queue And PriorityQueue**
 
