@@ -11,7 +11,5 @@ G
 src/messages.properties,9\f\9f36499ea0c81162b889a66c9a9408ce30b10bc4
 ˆ
 Xsrc/academy/devdojo/maratonajava/javacore/TresourceBundle/test/ResourceBundleTest01.java,4\c\4c9f9f097262452fb6331d2fde8f10ecd67a40b7
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 
 Osrc/academy/devdojo/maratonajava/javacore/Uregex/test/PatternMatcherTest01.java,1\0\10ecbe4fe0006ecf3adab463f4ed5ee654c25640
