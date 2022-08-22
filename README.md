@@ -240,7 +240,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 > ### GENERICS:
 
 - **183. Generic Types Introduction**
-- **133. Generic Wildcard Character**
+- **184. Generic Wildcard Character**
+- **185. Generic Wildcard Character 2**
 - **134. Generic Classes**
 - **135. Generic Methods**
 
