@@ -13,4 +13,8 @@ public class Barco {
 		return "Barco [nome=" + nome + "]";
 	}
 
+	public String getNome() {
+		return nome;
+	}
+
 }
