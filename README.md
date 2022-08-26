@@ -251,7 +251,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **189. Inner Classes Or Nested Classes**
 - **190. Local Inner Class**
 - **191. Anonymous Classes**
-- **139. Static Inner Classes**
+- **192. Static Inner Classes**
 
 > ### JAVA DATABASE CONNECTIVITY - JDBC:
 
