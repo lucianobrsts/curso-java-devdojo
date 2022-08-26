@@ -248,7 +248,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 > ### INNER CLASSES:
 
-- **136. Inner Classes Or Nested Classes**
+- **189. Inner Classes Or Nested Classes**
 - **137. Local Inner Class**
 - **138. Anonymous Classes**
 - **139. Static Inner Classes**
