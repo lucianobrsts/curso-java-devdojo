@@ -11,16 +11,50 @@ public class ComportamentoPorParametroTest01 {
     public static void main(String[] args) {
 
         System.out.println(filterGreenCar(cars));
+        System.out.println(filterRedCar(cars));
+        System.out.println(filterCarByColorr(cars, "green"));
+        System.out.println(filterCarByColorr(cars, "red"));
+        System.out.println("--------- Lis of Yearr ---------");
+        System.out.println(filterCarByYear(cars, 2015));
     }
 
     private static List<Car> filterGreenCar(List<Car> cars) {
-        List<Car> greensCars = new ArrayList<>();
+        List<Car> filterCars = new ArrayList<>();
         for (Car car : cars) {
             if (car.getColor().equals("green")) {
-                greensCars.add(car);
+                filterCars.add(car);
             }
         }
-        return greensCars;
+        return filterCars;
+    }
 
+    private static List<Car> filterRedCar(List<Car> cars) {
+        List<Car> filterCars = new ArrayList<>();
+        for (Car car : cars) {
+            if (car.getColor().equals("red")) {
+                filterCars.add(car);
+            }
+        }
+        return filterCars;
+    }
+
+    private static List<Car> filterCarByColorr(List<Car> cars, String color) {
+        List<Car> filterCars = new ArrayList<>();
+        for (Car car : cars) {
+            if (car.getColor().equals(color)) {
+                filterCars.add(car);
+            }
+        }
+        return filterCars;
+    }
+
+    private static List<Car> filterCarByYear(List<Car> cars, int year) {
+        List<Car> filterCars = new ArrayList<>();
+        for (Car car : cars) {
+            if (car.getYear() < year) {
+                filterCars.add(car);
+            }
+        }
+        return filterCars;
     }
 }
