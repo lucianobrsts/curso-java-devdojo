@@ -253,6 +253,11 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **191. Anonymous Classes**
 - **192. Static Inner Classes**
 
+### INNER CLASSES:
+
+- **193. Parameterizing behaviors**
+- **194. Parameterizing behaviors 2**
+
 > ### JAVA DATABASE CONNECTIVITY - JDBC:
 
 - **140. Installing The MySQL Database**
