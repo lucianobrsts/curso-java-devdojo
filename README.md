@@ -260,10 +260,11 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 
 ### FUNCTIONAL PROGRAMMING:
 
-- **177. Functional Programming and Lambdas**
-- **178. Functional Programming and Lambdas 2**
-- **179. Functional Programming and Lambdas 3**
-- **180. Functional Programming and Lambdas 4 Methods Reference**
+- **195. Functional Programming and Lambdas - Predicate**
+- **196. Functional Programming and Lambdas - Consumer**
+- **197. Functional Programming and Lambdas - Function**
+- **198. Functional Programming and Lambdas - Reference to Static Methods**
+- **199. Functional Programming and Lambdas - Reference to non-static Methods**
 - **181. New Rules for Interfaces, Default Methods**
 - **182. Avoiding NullPointerException with Optional**
 - **183. Avoiding NullPointerException with Optional 2**
