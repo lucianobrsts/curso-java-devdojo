@@ -266,8 +266,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **198. Functional Programming and Lambdas - Reference to Static Methods**
 - **199. Functional Programming and Lambdas - Reference to non-static Methods**
 - **200. Functional Programming and Lambdas - Reference to Constructor**
-- **181. New Rules for Interfaces, Default Methods**
-- **182. Avoiding NullPointerException with Optional**
+- **201. Avoiding NullPointerException with Optional**
 - **183. Avoiding NullPointerException with Optional 2**
 - **184. Avoiding NullPointerException with Optional 3**
 - **185. Streams**
