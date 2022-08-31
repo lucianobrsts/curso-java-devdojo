@@ -268,8 +268,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **200. Functional Programming and Lambdas - Reference to Constructor**
 - **201. Avoiding NullPointerException with Optional**
 - **202. Avoiding NullPointerException with Optional 2**
-- **184. Avoiding NullPointerException with Optional 3**
-- **185. Streams**
+- **203. Streams**
 - **186. Streams 2**
 - **187. Streams, Map And Flatmap**
 - **188. Streams, Finding And Matching**
