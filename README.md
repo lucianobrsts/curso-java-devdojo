@@ -270,7 +270,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **202. Avoiding NullPointerException with Optional 2**
 - **203. Streams**
 - **204. Streams 2**
-- **187. Streams, Map And Flatmap**
+- **205. Streams, Map And Flatmap**
 - **188. Streams, Finding And Matching**
 - **189. Specialized Streams (Primitive Streams)**
 - **190. Generating Streams**
