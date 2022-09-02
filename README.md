@@ -273,7 +273,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **205. Streams 3**
 - **206. Streams 4 - FlatMap**
 - **207. Streams 5 - FlatMap 2**
-- **189. Specialized Streams (Primitive Streams)**
+- **208. Streams Finding and Matching**
 - **190. Generating Streams**
 - **191. Reducing and Summarizing Streams**
 - **192. Grouping Streams**
