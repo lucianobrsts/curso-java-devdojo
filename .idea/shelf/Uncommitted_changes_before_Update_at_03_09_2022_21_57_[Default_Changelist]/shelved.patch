@@ -1,0 +1,101 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><img src=\"src/img/javadevdojo.png\" align=\"right\" width=\"300\">\r\n\r\n# Curso Java DevDojo\r\n\r\nLista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado no Jiraya DevDojo. Para mais informações acesse o curso no youtube, segue link abaixo.\r\n* [Acesse as aulas do DevDojo clicando aqui](https://www.youtube.com/watch?v=VKjFuX91G5Q&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW&index=1)\r\n\r\n## Ementa do Curso - Em processo\r\n\r\n> ### BASICS:\r\n\r\n- **01. What to expect from the course**\r\n- **02. How Java Works**\r\n- **03. Downloading JDK 15**\r\n- **04. Setting environment variables**\r\n- **05. Running The Build Process Manually**\r\n- **06. Intellij community IDE download**\r\n- **07. Getting to know the intellij community IDE**\r\n- **08. Organizing code into packages**\r\n- **09. Comments**\r\n\r\n> ### VARIABLES:\r\n\r\n- **10. Primitive types - variable conventions**\r\n- **11. Primitive types - declaration and size in memory**\r\n- **12. Primitive types - casting**\r\n- **13. Primitive types - Strings**\r\n- **14. Primitive types - exercise**\r\n\r\n> ### OPERATORS:\r\n\r\n- **15. Arithmetic operators**\r\n- **16. Relational operators**\r\n- **17. Logical operators AND**\r\n- **18. Logical operators OR**\r\n- **19. Assignment Operators**\r\n\r\n> ### FLOW CONTROL:\r\n\r\n- **20. Flow Control If**\r\n- **21. Flow Control If, else**\r\n- **22. Flow Control, Ternary Operator**\r\n- **23. Flow Control, Truth Table And Exercise**\r\n- **24. If Else Exercise Resolution**\r\n- **25. Switch And Exercise**\r\n- **26. Switch Exercise Resolution**\r\n- **27. Repetition Structure For, While And Do While**\r\n- **28. Repetition Structure Exercise**\r\n- **29. Repetition Structure Break Command**\r\n- **30. Break Exercise**\r\n- **31. Repetition Structure Continue Command**\r\n\r\n> ### ARRAYS:\r\n\r\n- **32. Arrays 1**\r\n- **33. Arrays 2**\r\n- **34. Arrays 3**\r\n- **35. Arrays 4 And Foreach**\r\n- **36. Multi-Dimensional Arrays**\r\n- **37. Multi-Dimensional Arrays 2**\r\n- **38. Multi-Dimensional Arrays 3 inicialization**\r\n\r\n> ### OBJECT ORIENTATION:\r\n\r\n- **39. Introduction to Classes 1**\r\n- **40. Introduction to Classes 2**\r\n- **41. Cohesion**\r\n- **42. Exercise about classes**\r\n- **43. Object reference**\r\n- **44. Methods**\r\n- **45. Methods with Parameters**\r\n- **46. Methods Return**\r\n- **47. Methods Return 2**\r\n- **48. Methods with Parameters primitive types**\r\n- **49. Methods with Parameters reference 1**\r\n- **50. Methods with Parameters reference 2**\r\n- **51. Methods with Parameters reference this**\r\n- **52. Passing Parameter Varargs**\r\n- **53. Methods Exercises**\r\n\r\n> ### ENCAPSULATION:\r\n\r\n- **54. Private Modifier, Getters And Setters**\r\n- **55. Private Modifier, Getters And Setters 2**\r\n- **56. Private Modifier, Getters And Setters 3**\r\n\r\n> ### OVERLOADING METHODS:\r\n\r\n- **57. Method overloading**\r\n\r\n> ### CONSTRUCTORS:\r\n\r\n- **58. Declaring Constructors And Overloading**\r\n- **59. Declaring Constructors And Overloading 2**\r\n- **60. Initialization Block**\r\n\r\n> ### STATIC MODIFIER:\r\n\r\n- **61. Static modifier**\r\n- **62. Static Methods**\r\n- **63. Static Initialization Block**\r\n\r\n> ### ASSOCIATION AND INHERITANCE:\r\n\r\n- **64. Arrays with objects**\r\n- **65. One-to-many unidirectional association**\r\n- **66. One-way many-to-one association**\r\n- **67. Bidirectional association**\r\n- **68. Reading data from the console**\r\n- **69. Reading data from the console 2**\r\n- **70. Association Exercise**\r\n- **71. Inheritance**\r\n- **72. Inheritance And Reference Super**\r\n- **73. Inheritance And Protected Modifier**\r\n- **74. Constructors X Inheritance**\r\n- **75. Inheritance And Initialization Sequence**\r\n- **76. ToString method override**\r\n- **77. Final Modifier - Primitive type**\r\n- **78. Final Modifier - Primitive type 2**\r\n- **79. Final Modifier - Classes and methods**\r\n\r\n> ### ENUMS:\r\n\r\n- **80. Enums**\r\n- **81. Enums Constructors and attributes**\r\n- **82. method override**\r\n- **83. Search by attributes**\r\n\r\n> ### ABSTRACT CLASSES AND INTERFACES:\r\n\r\n- **84. Abstract Classes**\r\n- **85. Abstract Methods**\r\n- **86. Abstract methods rules**\r\n- **87. Interfaces In Java**\r\n- **88. Implementing multiple interfaces**\r\n- **89. Static attributes and methods**\r\n\r\n> ### POLYMORPHISM:\r\n\r\n- **90. Polymorphism**\r\n- **91. Polymorphism operation**\r\n- **92. Polymorphism And Polymorphic Parameters**\r\n- **93. Polymorphism, Operator Instanceof And Cast of Objects**\r\n- **94. Polymorphism interface oriented programming**\r\n\r\n> ### ERROR HANDLING:\r\n\r\n- **95. Errors**\r\n- **96. Runtime Exception**\r\n- **97. Exceptions**\r\n- **98. Throwing unchecked exception**\r\n- **99. Throwing checked exception**\r\n- **100. Finally block**\r\n- **101. Catching multiple exceptions**\r\n- **102. Multi-catch in line**\r\n- **103. Try with resources**\r\n- **104. custom exception**\r\n- **105. Exception and overwrite rules**\r\n\r\n> ### UTILITY CLASSES:\r\n\r\n- **106. Wrapper Classes**\r\n- **107. AutoBoxing And Unboxing**\r\n- **108. String**\r\n- **109. String 02**\r\n- **110. StringBuffer And StringBuilder**\r\n- **111. StringBuilder**\r\n- **112. Dates With Date**\r\n- **113. Dates With Calendar**\r\n- **114. DateFormat**\r\n- **115. Internationalization With Locale Classes**\r\n- **116. Formatting Numbers With Java.Text.NumberFormat**\r\n- **117. Formatting coins With Java.Text.NumberFormat**\r\n- **118. Formatting Dates With SimpleDateFormat**\r\n- **119. LocalDate**\r\n- **120. LocalTime**\r\n- **121. LocalDateTime**\r\n- **122. Instant**\r\n- **123. Duration**\r\n- **124. Period**\r\n- **125. ChronoUnit**\r\n- **126. TemporalAdjusters**\r\n- **127. TemporalAdjuster**\r\n- **128. ZoneDateTime, zoneId, OffsetDateTime**\r\n- **129. DateTimeFormatter**\r\n- **130. Resource Bundles**\r\n- **131. Regex - Pattern and Matcher**\r\n- **132. Regex 2 - Pattern and Matcher - Meta caracteres**\r\n- **133. Regex 3 - Pattern and Matcher - Range**\r\n- **134. Regex 4 - Pattern and Matcher - Quantifiers**\r\n- **135. Regex 5 - Pattern and Matcher - Quantifiers 2**\r\n- **136. Regex 6 - Pattern and Matcher - Anchor**\r\n- **137. Scanner - Tokens and delimiters**\r\n- **138. File Class**\r\n- **139. FileWriter**\r\n- **140. FileReader**\r\n- **141. BufferedWriter**\r\n- **142. BufferedReader**\r\n- **143.  File Class For Directory**\r\n- **144. Path, Paths And Files**\r\n- **145. Path, Paths And Files 2**\r\n- **146. Normalizing Paths**\r\n- **147. Solving Paths**\r\n- **148. Relativize Paths**\r\n- **149. BasicFilesAttributes**\r\n- **150. BasicFilesAttributes 2**\r\n- **151. DosFileAttribute**\r\n- **152. PoxisFileAttribute**\r\n- **153. DirectoryStream**\r\n- **154. SimpleFileVisitor**\r\n- **155. SimpleFileVisitor 2**\r\n- **156. PathMatcher**\r\n- **157. PathMatcher**\r\n\r\n> ### COLLECTIONS:\r\n\r\n- **161. Method Equals()**\r\n- **162. Method Equals() 2**\r\n- **163. Methods hashcode()**\r\n- **164. Methods hashcode() 2**\r\n- **165. Big-O Complexity**\r\n- **166. Interface Java.Util.List**\r\n- **167. Interface Java.Util.List 2**\r\n- **168. Interface Java.Util.List 3**\r\n- **169. Sorting**\r\n- **170. Sorting Lists With Comparable**\r\n- **171. How To Order Arrays And Lists With Comparator**\r\n- **172. Binary Search in Lists And Arrays**\r\n- **173. Converting Arrays To List And List To Arrays**\r\n- **174. Iterator**\r\n- **175. Collections Set, HashSet And LinkedHashSet**\r\n- **176. Collections NavigableSet And TreeSet**\r\n- **177. Collections NavigableSet And TreeSet 2**\r\n- **178. Collections Map, HashMap And LinkedHashMap**\r\n- **179. Collections Map, HashMap And LinkedHashMap 2**\r\n- **180. Collections Map, HashMap And LinkedHashMap 3**\r\n- **181. NavigableMap And TreeMap**\r\n- **182. Queue And PriorityQueue**\r\n\r\n> ### GENERICS:\r\n\r\n- **183. Generic Types Introduction**\r\n- **184. Generic Wildcard Character**\r\n- **185. Generic Wildcard Character 2**\r\n- **186. Generic Classes**\r\n- **187. Generic Classes 2**\r\n- **188. Generic Methods**\r\n\r\n> ### INNER CLASSES:\r\n\r\n- **189. Inner Classes Or Nested Classes**\r\n- **190. Local Inner Class**\r\n- **191. Anonymous Classes**\r\n- **192. Static Inner Classes**\r\n\r\n### INNER CLASSES:\r\n\r\n- **193. Parameterizing behaviors**\r\n- **194. Parameterizing behaviors 2**\r\n\r\n> ### JAVA DATABASE CONNECTIVITY - JDBC:\r\n\r\n- **140. Installing The MySQL Database**\r\n- **141. Creating The Database And Tables**\r\n- **142. Connecting With Database, Driver JDBC**\r\n- **143. Inserting Data in the Database with Statement**\r\n- **144. Updating and Deleting Statement Data**\r\n- **145. ResultSet Selecting Records**\r\n- **146. ResultSet types and metadata**\r\n- **147. Methods for Cursor Positioning**\r\n- **148. Updating Records Using the Resultset**\r\n- **149. PreparedStatement**\r\n- **150. Procedures and Functions in the Database with CallableStatement**\r\n- **151. Connected RowSet - JdbcRowSet**\r\n- **152. Disconnected RowSet - CachedRowSet**\r\n- **153. Transactions**\r\n- **154. JDBC CRUD**\r\n- **155. JDBC CRUD 2**\r\n\r\n> ### THREADS:\r\n\r\n- **156. Defining, Instantiating And Starting Threads**\r\n- **157. Thread States And Transitions With Sleep, Yield And Join**\r\n- **158. Thread Priorities And Sleep(), Yield() And Join()**\r\n- **159. Synchronizing Code And Locks**\r\n- **160. Synchronizing Code And DeadLock**\r\n- **161. Thread Interaction With Wait, Notify And NotifyAll**\r\n- **162. Concurrence, Atomic Variables**\r\n- **163. Concurrence, Lock And ReentrantLock**\r\n- **164. Concurrence, Conditions**\r\n- **165. Concurrence, ReentrantReadWriteLock**\r\n- **166. Concurrence, CopyOnWriteArrayList**\r\n- **167. Concurrence, Concurrence Collections**\r\n- **168. Concurrence, Blocking Queues**\r\n- **169. Concurrence, Executors : Thread Pools**\r\n- **170. Concurrence, Executors : Scheduled Thread Pool**\r\n- **171. Concurrence, Callable Interface**\r\n\r\n> ### DESIGN PATTERNS:\r\n\r\n- **172. Builder Pattern**\r\n- **173. Singleton Pattern**\r\n- **174. DAO Pattern**\r\n- **175. Factory Pattern**\r\n\r\n> ### MORE:\r\n\r\n- **176. Parameterizing Behaviors (Predicate Interface)**\r\n\r\n> ### JAVA 8:\r\n\r\n- **177. Functional Programming and Lambdas**\r\n- **178. Functional Programming and Lambdas 2**\r\n- **179. Functional Programming and Lambdas 3**\r\n- **180. Functional Programming and Lambdas 4 Methods Reference**\r\n- **181. New Rules for Interfaces, Default Methods**\r\n- **182. Avoiding NullPointerException with Optional**\r\n- **183. Avoiding NullPointerException with Optional 2**\r\n- **184. Avoiding NullPointerException with Optional 3**\r\n- **185. Streams**\r\n- **186. Streams 2**\r\n- **187. Streams, Map And Flatmap**\r\n- **188. Streams, Finding And Matching**\r\n- **189. Specialized Streams (Primitive Streams)**\r\n- **190. Generating Streams**\r\n- **191. Reducing and Summarizing Streams**\r\n- **192. Grouping Streams**\r\n- **193. Introduction to Parallel Streams**\r\n- **194. When To Use Parallel Streams**\r\n- **195. CompletableFuture, Asynchronous Programming Introduction**\r\n- **196. CompletableFuture 2, CompletableFuture operation**\r\n- **197. CompletableFuture 3, Asynchronous Exception Handling**\r\n- **198. CompletableFuture 4, Performance Compared to Streams**\r\n- **199. CompletableFuture 5, CompletableFuture Custom Executor**\r\n- **200. CompletableFuture 6, Chaining Tasks**\r\n- **201. CompletableFuture 7, Chaining Tasks 2**\r\n- **202. CompletableFuture 7, Displaying Results Dynamically**\r\n- **203. New API DateTime LocalDate, LocalTime, LocalDateTime**\r\n- **204. New API DateTime Instant, Duration, And Period**\r\n- **205. New API DateTime Handling Dates Relatively**\r\n- **206. New API DateTime Making Time Adjustments with TimeAdjuster**\r\n- **207. New API DateTime Formatting And Parse**\r\n- **208. New API DateTime Working with Time Zones**\r\n- **209. Course Closing**\r\n\r\n> ### FIM:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision aef4e056a86c724439179c9c8357e37d06f7b6ce)
++++ b/README.md	(date 1661691356710)
+@@ -253,11 +253,47 @@
+ - **191. Anonymous Classes**
+ - **192. Static Inner Classes**
+ 
+-### INNER CLASSES:
++### PARAMETERIZING BEHAVIORS:
+ 
+ - **193. Parameterizing behaviors**
+ - **194. Parameterizing behaviors 2**
+ 
++### FUNCTIONAL PROGRAMMING:
++
++- **177. Lambdas - PREDICATE**
++- **178. Functional Programming and Lambdas 2**
++- **179. Functional Programming and Lambdas 3**
++- **180. Functional Programming and Lambdas 4 Methods Reference**
++- **181. New Rules for Interfaces, Default Methods**
++- **182. Avoiding NullPointerException with Optional**
++- **183. Avoiding NullPointerException with Optional 2**
++- **184. Avoiding NullPointerException with Optional 3**
++- **185. Streams**
++- **186. Streams 2**
++- **187. Streams, Map And Flatmap**
++- **188. Streams, Finding And Matching**
++- **189. Specialized Streams (Primitive Streams)**
++- **190. Generating Streams**
++- **191. Reducing and Summarizing Streams**
++- **192. Grouping Streams**
++- **193. Introduction to Parallel Streams**
++- **194. When To Use Parallel Streams**
++- **195. CompletableFuture, Asynchronous Programming Introduction**
++- **196. CompletableFuture 2, CompletableFuture operation**
++- **197. CompletableFuture 3, Asynchronous Exception Handling**
++- **198. CompletableFuture 4, Performance Compared to Streams**
++- **199. CompletableFuture 5, CompletableFuture Custom Executor**
++- **200. CompletableFuture 6, Chaining Tasks**
++- **201. CompletableFuture 7, Chaining Tasks 2**
++- **202. CompletableFuture 7, Displaying Results Dynamically**
++- **203. New API DateTime LocalDate, LocalTime, LocalDateTime**
++- **204. New API DateTime Instant, Duration, And Period**
++- **205. New API DateTime Handling Dates Relatively**
++- **206. New API DateTime Making Time Adjustments with TimeAdjuster**
++- **207. New API DateTime Formatting And Parse**
++- **208. New API DateTime Working with Time Zones**
++- **209. Course Closing**
++
+ > ### JAVA DATABASE CONNECTIVITY - JDBC:
+ 
+ - **140. Installing The MySQL Database**
+@@ -307,40 +343,4 @@
+ 
+ - **176. Parameterizing Behaviors (Predicate Interface)**
+ 
+-> ### JAVA 8:
+-
+-- **177. Functional Programming and Lambdas**
+-- **178. Functional Programming and Lambdas 2**
+-- **179. Functional Programming and Lambdas 3**
+-- **180. Functional Programming and Lambdas 4 Methods Reference**
+-- **181. New Rules for Interfaces, Default Methods**
+-- **182. Avoiding NullPointerException with Optional**
+-- **183. Avoiding NullPointerException with Optional 2**
+-- **184. Avoiding NullPointerException with Optional 3**
+-- **185. Streams**
+-- **186. Streams 2**
+-- **187. Streams, Map And Flatmap**
+-- **188. Streams, Finding And Matching**
+-- **189. Specialized Streams (Primitive Streams)**
+-- **190. Generating Streams**
+-- **191. Reducing and Summarizing Streams**
+-- **192. Grouping Streams**
+-- **193. Introduction to Parallel Streams**
+-- **194. When To Use Parallel Streams**
+-- **195. CompletableFuture, Asynchronous Programming Introduction**
+-- **196. CompletableFuture 2, CompletableFuture operation**
+-- **197. CompletableFuture 3, Asynchronous Exception Handling**
+-- **198. CompletableFuture 4, Performance Compared to Streams**
+-- **199. CompletableFuture 5, CompletableFuture Custom Executor**
+-- **200. CompletableFuture 6, Chaining Tasks**
+-- **201. CompletableFuture 7, Chaining Tasks 2**
+-- **202. CompletableFuture 7, Displaying Results Dynamically**
+-- **203. New API DateTime LocalDate, LocalTime, LocalDateTime**
+-- **204. New API DateTime Instant, Duration, And Period**
+-- **205. New API DateTime Handling Dates Relatively**
+-- **206. New API DateTime Making Time Adjustments with TimeAdjuster**
+-- **207. New API DateTime Formatting And Parse**
+-- **208. New API DateTime Working with Time Zones**
+-- **209. Course Closing**
+-
+ > ### FIM:
+\ No newline at end of file

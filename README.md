@@ -253,7 +253,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **191. Anonymous Classes**
 - **192. Static Inner Classes**
 
-### INNER CLASSES:
+### PARAMETERIZING BEHAVIORS:
 
 - **193. Parameterizing behaviors**
 - **194. Parameterizing behaviors 2**
@@ -275,7 +275,43 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **207. Streams 5 - FlatMap 2**
 - **208. Streams Finding and Matching**
 - **209. Reducing**
-- **209. Reducing 2**
+- **210. Reducing 2**
+- **211.Generating streams**
+- **193. Introduction to Parallel Streams**
+- **194. When To Use Parallel Streams**
+- **195. CompletableFuture, Asynchronous Programming Introduction**
+- **196. CompletableFuture 2, CompletableFuture operation**
+- **197. CompletableFuture 3, Asynchronous Exception Handling**
+- **198. CompletableFuture 4, Performance Compared to Streams**
+- **199. CompletableFuture 5, CompletableFuture Custom Executor**
+- **200. CompletableFuture 6, Chaining Tasks**
+- **201. CompletableFuture 7, Chaining Tasks 2**
+- **202. CompletableFuture 7, Displaying Results Dynamically**
+- **203. New API DateTime LocalDate, LocalTime, LocalDateTime**
+- **204. New API DateTime Instant, Duration, And Period**
+- **205. New API DateTime Handling Dates Relatively**
+- **206. New API DateTime Making Time Adjustments with TimeAdjuster**
+- **207. New API DateTime Formatting And Parse**
+- **208. New API DateTime Working with Time Zones**
+- **209. Course Closing**
+
+### FUNCTIONAL PROGRAMMING:
+
+- **177. Lambdas - PREDICATE**
+- **178. Functional Programming and Lambdas 2**
+- **179. Functional Programming and Lambdas 3**
+- **180. Functional Programming and Lambdas 4 Methods Reference**
+- **181. New Rules for Interfaces, Default Methods**
+- **182. Avoiding NullPointerException with Optional**
+- **183. Avoiding NullPointerException with Optional 2**
+- **184. Avoiding NullPointerException with Optional 3**
+- **185. Streams**
+- **186. Streams 2**
+- **187. Streams, Map And Flatmap**
+- **188. Streams, Finding And Matching**
+- **189. Specialized Streams (Primitive Streams)**
+- **190. Generating Streams**
+- **191. Reducing and Summarizing Streams**
 - **192. Grouping Streams**
 - **193. Introduction to Parallel Streams**
 - **194. When To Use Parallel Streams**
