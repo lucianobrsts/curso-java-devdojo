@@ -277,6 +277,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **209. Reducing**
 - **210. Reducing 2**
 - **211.Generating streams**
+- **212.Generating streams 2**
 - **193. Introduction to Parallel Streams**
 - **194. When To Use Parallel Streams**
 - **195. CompletableFuture, Asynchronous Programming Introduction**
