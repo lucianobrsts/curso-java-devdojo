@@ -253,7 +253,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **191. Anonymous Classes**
 - **192. Static Inner Classes**
 
-### INNER CLASSES:
+### PARAMETERIZING BEHAVIORS:
 
 - **193. Parameterizing behaviors**
 - **194. Parameterizing behaviors 2**
@@ -276,8 +276,13 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **208. Streams Finding and Matching**
 - **209. Reducing**
 - **210. Reducing 2**
+<<<<<<< HEAD
 - **211. Generating streams**
 - **212. Generating streams 2**
+=======
+- **211.Generating streams**
+- **212.Generating streams 2**
+>>>>>>> adc11f9c0d39ff8848c6519b135d6af0a2aa7ccf
 - **193. Introduction to Parallel Streams**
 - **194. When To Use Parallel Streams**
 - **195. CompletableFuture, Asynchronous Programming Introduction**
