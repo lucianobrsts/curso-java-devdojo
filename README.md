@@ -276,30 +276,8 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **208. Streams Finding and Matching**
 - **209. Reducing**
 - **210. Reducing 2**
-<<<<<<< HEAD
 - **211. Generating streams**
 - **212. Generating streams 2**
-=======
-- **211.Generating streams**
-- **212.Generating streams 2**
->>>>>>> adc11f9c0d39ff8848c6519b135d6af0a2aa7ccf
-- **193. Introduction to Parallel Streams**
-- **194. When To Use Parallel Streams**
-- **195. CompletableFuture, Asynchronous Programming Introduction**
-- **196. CompletableFuture 2, CompletableFuture operation**
-- **197. CompletableFuture 3, Asynchronous Exception Handling**
-- **198. CompletableFuture 4, Performance Compared to Streams**
-- **199. CompletableFuture 5, CompletableFuture Custom Executor**
-- **200. CompletableFuture 6, Chaining Tasks**
-- **201. CompletableFuture 7, Chaining Tasks 2**
-- **202. CompletableFuture 7, Displaying Results Dynamically**
-- **203. New API DateTime LocalDate, LocalTime, LocalDateTime**
-- **204. New API DateTime Instant, Duration, And Period**
-- **205. New API DateTime Handling Dates Relatively**
-- **206. New API DateTime Making Time Adjustments with TimeAdjuster**
-- **207. New API DateTime Formatting And Parse**
-- **208. New API DateTime Working with Time Zones**
-- **209. Course Closing**
 
 > ### JAVA DATABASE CONNECTIVITY - JDBC:
 
