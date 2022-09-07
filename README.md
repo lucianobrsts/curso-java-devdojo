@@ -278,6 +278,7 @@ Lista de Exercícios com conteúdo relevante a todo curso Maratona Java Virado n
 - **210. Reducing 2**
 - **211. Generating streams**
 - **212. Generating streams 2**
+- **213. Collectors - Summarizing**
 
 > ### JAVA DATABASE CONNECTIVITY - JDBC:
 
